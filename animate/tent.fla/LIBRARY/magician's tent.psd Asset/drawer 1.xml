@@ -1,0 +1,71 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="magician's tent.psd Asset/drawer 1" itemID="574dd906-00000979" lastModified="1465576177">
+  <timeline>
+    <DOMTimeline name="drawer 1" currentFrame="2">
+      <layers>
+        <DOMLayer name="actions" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" name="Off" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" duration="2" name="On" labelType="name" keyMode="9728" soundName="sounds/drawer.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FF800A">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#00FF00" alpha="0.2"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!-641 -641/18220 0!18220 0/18220 3700!18220 3700/0 3700!0 3700/-641 -641"/>
+                    <Edge cubics="!18220 0(;18220,0 18220,3700 18220,3700q18220 0p18220 3700);"/>
+                    <Edge cubics="!0 3700(;0,3700 -641,-641 -641,-641q0 3700 -641 -641);"/>
+                    <Edge cubics="!-641 -641(;-641,-641 18220,0 18220,0p-641 -641 18220 0);"/>
+                    <Edge cubics="!18220 3700(;18220,3700 0,3700 0,3700p18220 3700 0 3700);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" duration="2" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="magician's tent.psd Asset/Assets/socks">
+                  <matrix>
+                    <Matrix tx="158.7" ty="-10"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4F80FF">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" duration="2" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="magician's tent.psd Asset/Assets/drawer 1 open"/>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

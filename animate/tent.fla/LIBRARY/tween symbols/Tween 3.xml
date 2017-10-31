@@ -1,0 +1,21 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="tween symbols/Tween 3" itemID="574df89c-00000811" symbolType="graphic" lastModified="1466533836">
+  <timeline>
+    <DOMTimeline name="Tween 3">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance selected="true" libraryItemName="magician's tent.psd Asset/Assets/purple chest">
+                  <matrix>
+                    <Matrix a="0.997909545898438" b="-0.0646209716796875" c="0.0646209716796875" d="0.997909545898438" tx="-248.8" ty="-135.7"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

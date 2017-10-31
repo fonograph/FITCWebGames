@@ -1,0 +1,427 @@
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="1536" height="2048" currentTimeline="1" xflVersion="2.7" creatorInfo="Adobe Animate CC" platform="Macintosh" versionInfo="Saved by Animate Macintosh 15.2 build 66" majorVersion="15" minorVersion="2" buildNumber="66" gridVisible="true" rulerVisible="true" timelineLabelWidth="219" viewAngle3D="110.955592495495" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="3CE50BB6-55CF-47A6-B591-01286DDDC64C">
+     <folders>
+          <DOMFolderItem name="background sliced and scaled.psd Asset" itemID="574dcb89-000004db"/>
+          <DOMFolderItem name="cursors and icons" itemID="574f3a32-000001e4"/>
+          <DOMFolderItem name="magician's tent.psd Asset" itemID="574dca29-000001a2"/>
+          <DOMFolderItem name="magician's tent.psd Asset/Assets" itemID="574dca29-000001a3"/>
+          <DOMFolderItem name="magician's tent.psd Asset/Assets/lamp flame" itemID="574dca29-000001f6"/>
+          <DOMFolderItem name="magician's tent.psd Asset/Assets/lamp flame/Assets" itemID="574dca29-000001f7"/>
+          <DOMFolderItem name="magician's tent.psd Asset/Assets/lights" itemID="574dca29-000002a9"/>
+          <DOMFolderItem name="magician's tent.psd Asset/Assets/lights/Assets" itemID="574dca29-000002aa"/>
+          <DOMFolderItem name="magician's tent.psd Asset/magician's tent.psd Asset" itemID="574de5fd-00001066"/>
+          <DOMFolderItem name="magician's tent.psd Asset/magician's tent.psd Asset/Assets" itemID="574de5fd-00001067"/>
+          <DOMFolderItem name="placeholders" itemID="574f3a3d-000001e8"/>
+          <DOMFolderItem name="sounds" itemID="574f3aa3-000001ed"/>
+          <DOMFolderItem name="tween symbols" itemID="574df37c-000003d5"/>
+          <DOMFolderItem name="updated images" itemID="575b1699-00000223"/>
+     </folders>
+     <media>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/ball" itemID="574dca29-000001c1" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/ball" bitmapDataHRef="M 6 1464715817.dat" frameRight="1580" frameBottom="1420"/>
+          <DOMSoundItem name="sounds/ball.wav" itemID="575aea71-000002e0" sourceLastImported="1465584758" sourcePlatform="macintosh" href="sounds/ball.wav" soundDataHRef="M 116 1465575843.dat" format="44kHz 16bit Stereo" sampleCount="34545" dataLength="138180"/>
+          <DOMSoundItem name="sounds/beakers_bubbling.wav" itemID="5762c93e-00000227" sourceLastImported="1466091838" sourcePlatform="macintosh" href="sounds/beakers_bubbling.wav" soundDataHRef="M 109 1465575843.dat" format="44kHz 16bit Stereo" sampleCount="76256" dataLength="305024"/>
+          <DOMBitmapItem name="Bitmap 1" itemID="57e2cf92-00000234" sourceLastImported="1474481971" sourcePlatform="macintosh" externalFileCRC32="283704311" externalFileSize="56004" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap 1.png" bitmapDataHRef="M 161 1473885342.dat" frameRight="9160" frameBottom="5000"/>
+          <DOMBitmapItem name="Bitmap 2" itemID="57e2cf92-00000235" sourceLastImported="1474482012" sourcePlatform="macintosh" externalFileCRC32="937686558" externalFileSize="57176" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap 2.png" bitmapDataHRef="M 162 1473885349.dat" frameRight="9160" frameBottom="5000"/>
+          <DOMBitmapItem name="Bitmap 3" itemID="57e2cf92-00000236" sourceLastImported="1474482053" sourcePlatform="macintosh" externalFileCRC32="2135666564" externalFileSize="54339" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap 3.png" bitmapDataHRef="M 163 1473885354.dat" frameRight="9160" frameBottom="5000"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/book closed" itemID="574dca29-000001e4" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/book closed" bitmapDataHRef="M 13 1464715817.dat" frameRight="3260" frameBottom="4020"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/book open" itemID="574dca29-000001e9" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/book open" bitmapDataHRef="M 14 1464715817.dat" frameRight="5880" frameBottom="4000"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/books spilled" itemID="574dca29-00000279" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/books spilled" bitmapDataHRef="M 42 1464715817.dat" frameRight="21420" frameBottom="5180"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/books upright" itemID="574dca29-0000027e" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/books upright" bitmapDataHRef="M 43 1464715817.dat" frameRight="6180" frameBottom="8220"/>
+          <DOMSoundItem name="sounds/boots.wav" itemID="575aea71-000002e2" sourceLastImported="1465584758" sourcePlatform="macintosh" href="sounds/boots.wav" soundDataHRef="M 118 1465575843.dat" format="44kHz 16bit Stereo" sampleCount="21981" dataLength="87924"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/box lid closed" itemID="574dca2a-000002d5" sourceLastImported="1464715818" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/box lid closed" bitmapDataHRef="M 60 1464715818.dat" frameRight="12240" frameBottom="4020"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/box lid open" itemID="574dca2a-000002cb" sourceLastImported="1464715818" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/box lid open" bitmapDataHRef="M 58 1464715818.dat" frameRight="9720" frameBottom="4260"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/bubbling" itemID="574dca29-000001ee" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/bubbling" bitmapDataHRef="M 15 1464715817.dat" frameRight="4280" frameBottom="4780"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/bubbling beakers 1" itemID="574dca29-00000283" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/bubbling beakers 1" bitmapDataHRef="M 44 1464715817.dat" frameRight="4740" frameBottom="6480"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/bubbling beakers 2" itemID="574dca29-00000288" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/bubbling beakers 2" bitmapDataHRef="M 45 1464715817.dat" frameRight="4680" frameBottom="6040"/>
+          <DOMSoundItem name="sounds/bunting.wav" itemID="575aea71-000002e3" sourceLastImported="1465584758" sourcePlatform="macintosh" href="sounds/bunting.wav" soundDataHRef="M 142 1465575844.dat" format="44kHz 16bit Stereo" sampleCount="5512" dataLength="22048"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/bunting1" itemID="574dca29-000001b7" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/bunting1" bitmapDataHRef="M 4 1464715817.dat" frameRight="2220" frameBottom="2540"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/bunting2" itemID="574dca29-000001b2" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/bunting2" bitmapDataHRef="M 3 1464715817.dat" frameRight="2300" frameBottom="2460"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/cabinet lid open" itemID="574dca29-0000026a" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/cabinet lid open" bitmapDataHRef="M 39 1464715817.dat" frameRight="11620" frameBottom="4280"/>
+          <DOMSoundItem name="sounds/cast_iron_pan.wav" itemID="575aea71-000002e4" sourceLastImported="1465584758" sourcePlatform="macintosh" href="sounds/cast_iron_pan.wav" soundDataHRef="M 111 1465575843.dat" format="44kHz 16bit Stereo" sampleCount="66150" dataLength="264600"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/cat in chest" itemID="574dca29-0000021f" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/cat in chest" bitmapDataHRef="M 24 1464715817.dat" frameRight="4580" frameBottom="2120"/>
+          <DOMSoundItem name="sounds/chair_cushion.wav" itemID="575aea71-000002e5" sourceLastImported="1465584758" sourcePlatform="macintosh" href="sounds/chair_cushion.wav" soundDataHRef="M 114 1465575843.dat" format="44kHz 16bit Stereo" sampleCount="42262" dataLength="169048"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/chest lid open" itemID="574dca29-00000215" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/chest lid open" bitmapDataHRef="M 22 1464715817.dat" frameRight="12320" frameBottom="4780"/>
+          <DOMSoundItem name="sounds/click_on_anything_with_wand.wav" itemID="575aea71-000002e6" sourceLastImported="1465584758" sourcePlatform="macintosh" href="sounds/click_on_anything_with_wand.wav" soundDataHRef="M 106 1465575843.dat" format="44kHz 16bit Stereo" sampleCount="77175" dataLength="308700"/>
+          <DOMSoundItem name="sounds/click_on_purple_chest_without_magic_wand.wav" itemID="575aea71-000002e7" sourceLastImported="1465584758" sourcePlatform="macintosh" href="sounds/click_on_purple_chest_without_magic_wand.wav" soundDataHRef="M 121 1465575843.dat" format="44kHz 16bit Stereo" sampleCount="16514" dataLength="66056"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/clock" itemID="574dca2a-000002c6" sourceLastImported="1464715818" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/clock" bitmapDataHRef="M 57 1464715818.dat" frameRight="3540" frameBottom="4600"/>
+          <DOMSoundItem name="sounds/clock.wav" itemID="575aea71-000002e8" sourceLastImported="1465584758" sourcePlatform="macintosh" href="sounds/clock.wav" soundDataHRef="M 110 1465575843.dat" format="44kHz 16bit Stereo" sampleCount="71363" dataLength="285452"/>
+          <DOMSoundItem name="sounds/collect_keys.wav" itemID="5762c933-00000225" sourceLastImported="1466091827" sourcePlatform="macintosh" href="sounds/collect_keys.wav" soundDataHRef="M 143 1465575844.dat" format="44kHz 16bit Stereo" sampleCount="5512" dataLength="22048"/>
+          <DOMSoundItem name="sounds/combo_lock.wav" itemID="575aea71-000002ea" sourceLastImported="1465584758" sourcePlatform="macintosh" href="sounds/combo_lock.wav" soundDataHRef="M 127 1465575843.dat" format="44kHz 16bit Stereo" sampleCount="11254" dataLength="45016"/>
+          <DOMSoundItem name="sounds/combo_lock_success.wav" itemID="575aea71-000002eb" sourceLastImported="1465584758" sourcePlatform="macintosh" href="sounds/combo_lock_success.wav" soundDataHRef="M 144 1465575844.dat" format="44kHz 16bit Stereo" sampleCount="5512" dataLength="22048"/>
+          <DOMSoundItem name="sounds/cork.wav" itemID="575aea71-000002ec" sourceLastImported="1465584758" sourcePlatform="macintosh" href="sounds/cork.wav" soundDataHRef="M 119 1465575843.dat" format="44kHz 16bit Stereo" sampleCount="16927" dataLength="67708"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/corks" itemID="574dca29-000001f3" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/corks" bitmapDataHRef="M 16 1464715817.dat" frameRight="3480" frameBottom="1360"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/crystal ball" itemID="574dca29-0000026f" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/crystal ball" bitmapDataHRef="M 40 1464715817.dat" frameRight="3320" frameBottom="4240"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/cushion" itemID="574dca29-0000021a" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/cushion" bitmapDataHRef="M 23 1464715817.dat" frameRight="8580" frameBottom="5560"/>
+          <DOMBitmapItem name="updated images/dialog box.png" itemID="575b16f9-00000267" sourceLastImported="1466533124" sourcePlatform="macintosh" externalFileSize="18797" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="updated images/dialog box.png" bitmapDataHRef="M 175 1465587363.dat" frameRight="16660" frameBottom="6000"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/drawer 1 open" itemID="574dca29-000001cb" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/drawer 1 open" bitmapDataHRef="M 8 1464715817.dat" frameRight="18220" frameBottom="3700"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/drawer 2 open" itemID="574dca29-000001da" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/drawer 2 open" bitmapDataHRef="M 11 1464715817.dat" frameRight="18140" frameBottom="4560"/>
+          <DOMSoundItem name="sounds/drawer.wav" itemID="575aea71-000002ed" sourceLastImported="1465584758" sourcePlatform="macintosh" href="sounds/drawer.wav" soundDataHRef="M 117 1465575843.dat" format="44kHz 16bit Stereo" sampleCount="22945" dataLength="91780"/>
+          <DOMSoundItem name="sounds/drawer_2.wav" itemID="575aea71-000002ee" sourceLastImported="1465584758" sourcePlatform="macintosh" href="sounds/drawer_2.wav" soundDataHRef="M 113 1465575843.dat" format="44kHz 16bit Stereo" sampleCount="59626" dataLength="238504"/>
+          <DOMSoundItem name="sounds/feather.wav" itemID="575aea71-000002ef" sourceLastImported="1465584758" sourcePlatform="macintosh" href="sounds/feather.wav" soundDataHRef="M 145 1465575844.dat" format="44kHz 16bit Stereo" sampleCount="5512" dataLength="22048"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/green books" itemID="574dca2a-000002c1" sourceLastImported="1464715818" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/green books" bitmapDataHRef="M 56 1464715818.dat" frameRight="7120" frameBottom="3460"/>
+          <DOMSoundItem name="sounds/green books.wav" itemID="575aea71-000002f0" sourceLastImported="1465584758" sourcePlatform="macintosh" href="sounds/green books.wav" soundDataHRef="M 125 1465575843.dat" format="44kHz 16bit Stereo" sampleCount="13919" dataLength="55676"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/ink and feather" itemID="574dca29-000001c6" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/ink and feather" bitmapDataHRef="M 7 1464715817.dat" frameRight="2360" frameBottom="6720"/>
+          <DOMBitmapItem name="updated images/inventory.png" itemID="575b16f9-00000268" sourceLastImported="1465587252" sourcePlatform="macintosh" externalFileSize="2998" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="updated images/inventory.png" bitmapDataHRef="M 174 1465587363.dat" frameRight="4000" frameBottom="4060"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/jack in the box" itemID="574dca29-000001d5" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/jack in the box" bitmapDataHRef="M 10 1464715817.dat" frameRight="6260" frameBottom="6120"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/keys" itemID="574dca2a-000002d0" sourceLastImported="1464715818" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/keys" bitmapDataHRef="M 59 1464715818.dat" frameRight="2800" frameBottom="3200"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/lamp flame/Assets/lamp flame" itemID="574dca29-00000201" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/lamp flame/Assets/lamp flame" bitmapDataHRef="M 18 1464715817.dat" frameRight="1040" frameBottom="3120"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/lamp flame/Assets/lamp flame's Outer Glow" itemID="574dca29-000001fc" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/lamp flame/Assets/lamp flame's Outer Glow" bitmapDataHRef="M 17 1464715817.dat" frameRight="5860" frameBottom="7800"/>
+          <DOMSoundItem name="sounds/lamp_on_and_off.wav" itemID="575aea71-000002f1" sourceLastImported="1465584759" sourcePlatform="macintosh" href="sounds/lamp_on_and_off.wav" soundDataHRef="M 104 1465575843.dat" format="44kHz 16bit Stereo" sampleCount="135538" dataLength="542152"/>
+          <DOMBitmapItem name="background sliced and scaled.psd Asset/Layer 1.png" itemID="5769a935-00000a33" sourceLastImported="1466542306" sourcePlatform="macintosh" externalFileSize="55777" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="background sliced and scaled.psd Asset/Layer 1.png" bitmapDataHRef="M 141 1464716169.dat" frameRight="6660" frameBottom="6660"/>
+          <DOMBitmapItem name="background sliced and scaled.psd Asset/Layer 10" itemID="574dcb89-000004f9" sourceLastImported="1464716169" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="background sliced and scaled.psd Asset/Layer 10" bitmapDataHRef="M 150 1464716169.dat" frameRight="3640" frameBottom="6660"/>
+          <DOMBitmapItem name="background sliced and scaled.psd Asset/Layer 11" itemID="574dcb89-000004fc" sourceLastImported="1464716169" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="background sliced and scaled.psd Asset/Layer 11" bitmapDataHRef="M 151 1464716169.dat" frameRight="6660" frameBottom="6680"/>
+          <DOMBitmapItem name="background sliced and scaled.psd Asset/Layer 12" itemID="574dcb89-000004ff" sourceLastImported="1464716169" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="background sliced and scaled.psd Asset/Layer 12" bitmapDataHRef="M 152 1464716169.dat" frameRight="6680" frameBottom="6680"/>
+          <DOMBitmapItem name="background sliced and scaled.psd Asset/Layer 13" itemID="574dcb89-00000502" sourceLastImported="1464716169" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="background sliced and scaled.psd Asset/Layer 13" bitmapDataHRef="M 153 1464716169.dat" frameRight="6660" frameBottom="6680"/>
+          <DOMBitmapItem name="background sliced and scaled.psd Asset/Layer 14" itemID="574dcb89-00000505" sourceLastImported="1464716169" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="background sliced and scaled.psd Asset/Layer 14" bitmapDataHRef="M 154 1464716169.dat" frameRight="6680" frameBottom="6680"/>
+          <DOMBitmapItem name="background sliced and scaled.psd Asset/Layer 15" itemID="574dcb8a-00000508" sourceLastImported="1464716169" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="background sliced and scaled.psd Asset/Layer 15" bitmapDataHRef="M 155 1464716169.dat" frameRight="6680" frameBottom="6680"/>
+          <DOMBitmapItem name="background sliced and scaled.psd Asset/Layer 16" itemID="574dcb8a-0000050b" sourceLastImported="1464716170" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="background sliced and scaled.psd Asset/Layer 16" bitmapDataHRef="M 156 1464716170.dat" frameRight="6660" frameBottom="6680"/>
+          <DOMBitmapItem name="background sliced and scaled.psd Asset/Layer 17" itemID="574dcb8a-0000050e" sourceLastImported="1464716170" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="background sliced and scaled.psd Asset/Layer 17" bitmapDataHRef="M 157 1464716170.dat" frameRight="6680" frameBottom="6680"/>
+          <DOMBitmapItem name="background sliced and scaled.psd Asset/Layer 18" itemID="574dcb8a-00000511" sourceLastImported="1464716170" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="background sliced and scaled.psd Asset/Layer 18" bitmapDataHRef="M 158 1464716170.dat" frameRight="6680" frameBottom="6680"/>
+          <DOMBitmapItem name="background sliced and scaled.psd Asset/Layer 19" itemID="574dcb8a-00000514" sourceLastImported="1464716170" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="background sliced and scaled.psd Asset/Layer 19" bitmapDataHRef="M 159 1464716170.dat" frameRight="6660" frameBottom="6680"/>
+          <DOMBitmapItem name="background sliced and scaled.psd Asset/Layer 2" itemID="574dcb89-000004e1" sourceLastImported="1464716169" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="background sliced and scaled.psd Asset/Layer 2" bitmapDataHRef="M 142 1464716169.dat" frameRight="6680" frameBottom="6660"/>
+          <DOMBitmapItem name="background sliced and scaled.psd Asset/Layer 20" itemID="574dcb8a-00000517" sourceLastImported="1464716170" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="background sliced and scaled.psd Asset/Layer 20" bitmapDataHRef="M 160 1464716170.dat" frameRight="3640" frameBottom="6680"/>
+          <DOMBitmapItem name="background sliced and scaled.psd Asset/Layer 21" itemID="574dcb8a-0000051a" sourceLastImported="1464716170" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="background sliced and scaled.psd Asset/Layer 21" bitmapDataHRef="M 161 1464716170.dat" frameRight="6660" frameBottom="6680"/>
+          <DOMBitmapItem name="background sliced and scaled.psd Asset/Layer 22" itemID="574dcb8a-0000051d" sourceLastImported="1464716170" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="background sliced and scaled.psd Asset/Layer 22" bitmapDataHRef="M 162 1464716170.dat" frameRight="6680" frameBottom="6680"/>
+          <DOMBitmapItem name="background sliced and scaled.psd Asset/Layer 23" itemID="574dcb8a-00000520" sourceLastImported="1464716170" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="background sliced and scaled.psd Asset/Layer 23" bitmapDataHRef="M 163 1464716170.dat" frameRight="6660" frameBottom="6680"/>
+          <DOMBitmapItem name="background sliced and scaled.psd Asset/Layer 24" itemID="574dcb8a-00000523" sourceLastImported="1464716170" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="background sliced and scaled.psd Asset/Layer 24" bitmapDataHRef="M 164 1464716170.dat" frameRight="6680" frameBottom="6680"/>
+          <DOMBitmapItem name="background sliced and scaled.psd Asset/Layer 25" itemID="574dcb8a-00000526" sourceLastImported="1464716170" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="background sliced and scaled.psd Asset/Layer 25" bitmapDataHRef="M 165 1464716170.dat" frameRight="6680" frameBottom="6680"/>
+          <DOMBitmapItem name="background sliced and scaled.psd Asset/Layer 26" itemID="574dcb8a-00000529" sourceLastImported="1464716170" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="background sliced and scaled.psd Asset/Layer 26" bitmapDataHRef="M 166 1464716170.dat" frameRight="6660" frameBottom="6680"/>
+          <DOMBitmapItem name="background sliced and scaled.psd Asset/Layer 27" itemID="574dcb8a-0000052c" sourceLastImported="1464716170" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="background sliced and scaled.psd Asset/Layer 27" bitmapDataHRef="M 167 1464716170.dat" frameRight="6680" frameBottom="6680"/>
+          <DOMBitmapItem name="background sliced and scaled.psd Asset/Layer 28" itemID="574dcb8a-0000052f" sourceLastImported="1464716170" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="background sliced and scaled.psd Asset/Layer 28" bitmapDataHRef="M 168 1464716170.dat" frameRight="6680" frameBottom="6680"/>
+          <DOMBitmapItem name="background sliced and scaled.psd Asset/Layer 29" itemID="574dcb8a-00000532" sourceLastImported="1464716170" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="background sliced and scaled.psd Asset/Layer 29" bitmapDataHRef="M 169 1464716170.dat" frameRight="6660" frameBottom="6680"/>
+          <DOMBitmapItem name="background sliced and scaled.psd Asset/Layer 3" itemID="574dcb89-000004e4" sourceLastImported="1464716169" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="background sliced and scaled.psd Asset/Layer 3" bitmapDataHRef="M 143 1464716169.dat" frameRight="6660" frameBottom="6660"/>
+          <DOMBitmapItem name="background sliced and scaled.psd Asset/Layer 30" itemID="574dcb8a-00000535" sourceLastImported="1464716170" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="background sliced and scaled.psd Asset/Layer 30" bitmapDataHRef="M 170 1464716170.dat" frameRight="3640" frameBottom="6680"/>
+          <DOMBitmapItem name="background sliced and scaled.psd Asset/Layer 31" itemID="574dcb8a-00000538" sourceLastImported="1464716170" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="background sliced and scaled.psd Asset/Layer 31" bitmapDataHRef="M 171 1464716170.dat" frameRight="6660" frameBottom="520"/>
+          <DOMBitmapItem name="background sliced and scaled.psd Asset/Layer 32" itemID="574dcb8a-0000053b" sourceLastImported="1464716170" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="background sliced and scaled.psd Asset/Layer 32" bitmapDataHRef="M 172 1464716170.dat" frameRight="6680" frameBottom="520"/>
+          <DOMBitmapItem name="background sliced and scaled.psd Asset/Layer 33" itemID="574dcb8a-0000053e" sourceLastImported="1464716170" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="background sliced and scaled.psd Asset/Layer 33" bitmapDataHRef="M 173 1464716170.dat" frameRight="6660" frameBottom="520"/>
+          <DOMBitmapItem name="background sliced and scaled.psd Asset/Layer 34" itemID="574dcb8a-00000541" sourceLastImported="1464716170" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="background sliced and scaled.psd Asset/Layer 34" bitmapDataHRef="M 174 1464716170.dat" frameRight="6680" frameBottom="520"/>
+          <DOMBitmapItem name="background sliced and scaled.psd Asset/Layer 35" itemID="574dcb8a-00000544" sourceLastImported="1464716170" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="background sliced and scaled.psd Asset/Layer 35" bitmapDataHRef="M 175 1464716170.dat" frameRight="6680" frameBottom="520"/>
+          <DOMBitmapItem name="background sliced and scaled.psd Asset/Layer 36" itemID="574dcb8a-00000547" sourceLastImported="1464716170" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="background sliced and scaled.psd Asset/Layer 36" bitmapDataHRef="M 176 1464716170.dat" frameRight="6660" frameBottom="520"/>
+          <DOMBitmapItem name="background sliced and scaled.psd Asset/Layer 37" itemID="574dcb8a-0000054a" sourceLastImported="1464716170" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="background sliced and scaled.psd Asset/Layer 37" bitmapDataHRef="M 177 1464716170.dat" frameRight="6680" frameBottom="520"/>
+          <DOMBitmapItem name="background sliced and scaled.psd Asset/Layer 38" itemID="574dcb8a-0000054d" sourceLastImported="1464716170" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="background sliced and scaled.psd Asset/Layer 38" bitmapDataHRef="M 178 1464716170.dat" frameRight="6680" frameBottom="520"/>
+          <DOMBitmapItem name="background sliced and scaled.psd Asset/Layer 39" itemID="574dcb8a-00000550" sourceLastImported="1464716170" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="background sliced and scaled.psd Asset/Layer 39" bitmapDataHRef="M 179 1464716170.dat" frameRight="6660" frameBottom="520"/>
+          <DOMBitmapItem name="background sliced and scaled.psd Asset/Layer 4" itemID="574dcb89-000004e7" sourceLastImported="1464716169" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="background sliced and scaled.psd Asset/Layer 4" bitmapDataHRef="M 144 1464716169.dat" frameRight="6680" frameBottom="6660"/>
+          <DOMBitmapItem name="background sliced and scaled.psd Asset/Layer 40" itemID="574dcb8a-00000553" sourceLastImported="1464716170" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="background sliced and scaled.psd Asset/Layer 40" bitmapDataHRef="M 180 1464716170.dat" frameRight="3640" frameBottom="520"/>
+          <DOMBitmapItem name="background sliced and scaled.psd Asset/Layer 5" itemID="574dcb89-000004ea" sourceLastImported="1464716169" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="background sliced and scaled.psd Asset/Layer 5" bitmapDataHRef="M 145 1464716169.dat" frameRight="6680" frameBottom="6660"/>
+          <DOMBitmapItem name="background sliced and scaled.psd Asset/Layer 6" itemID="574dcb89-000004ed" sourceLastImported="1464716169" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="background sliced and scaled.psd Asset/Layer 6" bitmapDataHRef="M 146 1464716169.dat" frameRight="6660" frameBottom="6660"/>
+          <DOMBitmapItem name="background sliced and scaled.psd Asset/Layer 7" itemID="574dcb89-000004f0" sourceLastImported="1464716169" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="background sliced and scaled.psd Asset/Layer 7" bitmapDataHRef="M 147 1464716169.dat" frameRight="6680" frameBottom="6660"/>
+          <DOMBitmapItem name="background sliced and scaled.psd Asset/Layer 8" itemID="574dcb89-000004f3" sourceLastImported="1464716169" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="background sliced and scaled.psd Asset/Layer 8" bitmapDataHRef="M 148 1464716169.dat" frameRight="6680" frameBottom="6660"/>
+          <DOMBitmapItem name="background sliced and scaled.psd Asset/Layer 9" itemID="574dcb89-000004f6" sourceLastImported="1464716169" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="background sliced and scaled.psd Asset/Layer 9" bitmapDataHRef="M 149 1464716169.dat" frameRight="6660" frameBottom="6660"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/lights/lights" itemID="574dca29-000002b2" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/lights/lights" bitmapDataHRef="M 53 1464715817.dat" frameRight="20320" frameBottom="6960"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/lights/Assets/lights's Outer Glow" itemID="574dca29-000002af" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/lights/Assets/lights's Outer Glow" bitmapDataHRef="M 52 1464715817.dat" frameRight="22480" frameBottom="9120"/>
+          <DOMSoundItem name="sounds/lights_on_and_off.wav" itemID="575aea71-000002f2" sourceLastImported="1465584759" sourcePlatform="macintosh" href="sounds/lights_on_and_off.wav" soundDataHRef="M 126 1465575843.dat" format="44kHz 16bit Stereo" sampleCount="11782" dataLength="47128"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/magic wand" itemID="574dca29-00000206" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/magic wand" bitmapDataHRef="M 19 1464715817.dat" frameRight="9420" frameBottom="1320"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/mirror1" itemID="574dca29-00000265" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/mirror1" bitmapDataHRef="M 38 1464715817.dat" frameRight="4820" frameBottom="2260"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/mirror10" itemID="574dca29-00000238" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/mirror10" bitmapDataHRef="M 29 1464715817.dat" frameRight="4460" frameBottom="1440"/>
+          <DOMSoundItem name="sounds/mirror10b" itemID="578d4d16-00000250" sourceLastImported="1468862940" sourcePlatform="macintosh" href="sounds/mirror10b.wav" soundDataHRef="M 137 1465575844.dat" format="44kHz 16bit Stereo" sampleCount="176400" dataLength="705600"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/mirror11.png" itemID="57d9b062-00000246" sourceLastImported="1473884242" sourcePlatform="macintosh" externalFileSize="24784" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/mirror11.png" bitmapDataHRef="M 28 1464715817.dat" frameRight="4240" frameBottom="4360"/>
+          <DOMSoundItem name="sounds/mirror11b" itemID="578d4d16-00000251" sourceLastImported="1468862940" sourcePlatform="macintosh" href="sounds/mirror11b.wav" soundDataHRef="M 138 1465575844.dat" format="44kHz 16bit Stereo" sampleCount="176400" dataLength="705600"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/mirror12" itemID="574dca29-0000022e" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/mirror12" bitmapDataHRef="M 27 1464715817.dat" frameRight="2340" frameBottom="4020"/>
+          <DOMSoundItem name="sounds/mirror12b" itemID="578d4d16-00000252" sourceLastImported="1468862942" sourcePlatform="macintosh" href="sounds/mirror12b.wav" soundDataHRef="M 139 1465575844.dat" format="44kHz 16bit Stereo" sampleCount="176400" dataLength="705600"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/mirror13" itemID="574dca29-00000229" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/mirror13" bitmapDataHRef="M 26 1464715817.dat" frameRight="3320" frameBottom="2880"/>
+          <DOMSoundItem name="sounds/mirror13b" itemID="578d4d16-00000253" sourceLastImported="1468862942" sourcePlatform="macintosh" href="sounds/mirror13b.wav" soundDataHRef="M 140 1465575844.dat" format="44kHz 16bit Stereo" sampleCount="176400" dataLength="705600"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/mirror14.png" itemID="576ac6ce-00000dac" sourceLastImported="1466615380" sourcePlatform="macintosh" externalFileCRC32="3453353357" externalFileSize="19773" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/mirror14.png" bitmapDataHRef="M 25 1464715817.dat" frameRight="1680" frameBottom="3040"/>
+          <DOMSoundItem name="sounds/mirror14b" itemID="578d4d16-00000254" sourceLastImported="1468862942" sourcePlatform="macintosh" href="sounds/mirror14b.wav" soundDataHRef="M 141 1465575844.dat" format="44kHz 16bit Stereo" sampleCount="176400" dataLength="705600"/>
+          <DOMSoundItem name="sounds/mirror1b" itemID="578d4d16-00000255" sourceLastImported="1468862940" sourcePlatform="macintosh" href="sounds/mirror1b.wav" soundDataHRef="M 128 1465575843.dat" format="44kHz 16bit Stereo" sampleCount="176400" dataLength="705600"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/mirror2" itemID="574dca29-00000260" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/mirror2" bitmapDataHRef="M 37 1464715817.dat" frameRight="3720" frameBottom="3640"/>
+          <DOMSoundItem name="sounds/mirror2b" itemID="578d4d16-00000256" sourceLastImported="1468862944" sourcePlatform="macintosh" href="sounds/mirror2b.wav" soundDataHRef="M 129 1465575843.dat" format="44kHz 16bit Stereo" sampleCount="176400" dataLength="705600"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/mirror3" itemID="574dca29-0000025b" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/mirror3" bitmapDataHRef="M 36 1464715817.dat" frameRight="3160" frameBottom="4140"/>
+          <DOMSoundItem name="sounds/mirror3b" itemID="578d4d16-00000257" sourceLastImported="1468862944" sourcePlatform="macintosh" href="sounds/mirror3b.wav" soundDataHRef="M 130 1465575843.dat" format="44kHz 16bit Stereo" sampleCount="176400" dataLength="705600"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/mirror4" itemID="574dca29-00000256" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/mirror4" bitmapDataHRef="M 35 1464715817.dat" frameRight="1560" frameBottom="5500"/>
+          <DOMSoundItem name="sounds/mirror4b" itemID="578d4d16-00000258" sourceLastImported="1468862946" sourcePlatform="macintosh" href="sounds/mirror4b.wav" soundDataHRef="M 131 1465575844.dat" format="44kHz 16bit Stereo" sampleCount="176400" dataLength="705600"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/mirror5" itemID="574dca29-00000251" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/mirror5" bitmapDataHRef="M 34 1464715817.dat" frameRight="1960" frameBottom="5280"/>
+          <DOMSoundItem name="sounds/mirror5b" itemID="578d4d16-00000259" sourceLastImported="1468862946" sourcePlatform="macintosh" href="sounds/mirror5b.wav" soundDataHRef="M 132 1465575844.dat" format="44kHz 16bit Stereo" sampleCount="176400" dataLength="705600"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/mirror6" itemID="574dca29-0000024c" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/mirror6" bitmapDataHRef="M 33 1464715817.dat" frameRight="2280" frameBottom="2740"/>
+          <DOMSoundItem name="sounds/mirror6b" itemID="578d4d16-0000025a" sourceLastImported="1468862948" sourcePlatform="macintosh" href="sounds/mirror6b.wav" soundDataHRef="M 133 1465575844.dat" format="44kHz 16bit Stereo" sampleCount="176400" dataLength="705600"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/mirror7" itemID="574dca29-00000247" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/mirror7" bitmapDataHRef="M 32 1464715817.dat" frameRight="1900" frameBottom="2140"/>
+          <DOMSoundItem name="sounds/mirror7b" itemID="578d4d16-0000025b" sourceLastImported="1468862948" sourcePlatform="macintosh" href="sounds/mirror7b.wav" soundDataHRef="M 134 1465575844.dat" format="44kHz 16bit Stereo" sampleCount="176400" dataLength="705600"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/mirror8" itemID="574dca29-00000242" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/mirror8" bitmapDataHRef="M 31 1464715817.dat" frameRight="2140" frameBottom="2040"/>
+          <DOMSoundItem name="sounds/mirror8b" itemID="578d4d16-0000025c" sourceLastImported="1468862950" sourcePlatform="macintosh" href="sounds/mirror8b.wav" soundDataHRef="M 135 1465575844.dat" format="44kHz 16bit Stereo" sampleCount="176400" dataLength="705600"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/mirror9" itemID="574dca29-0000023d" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/mirror9" bitmapDataHRef="M 30 1464715817.dat" frameRight="2960" frameBottom="7100"/>
+          <DOMSoundItem name="sounds/mirror9b" itemID="578d4d16-0000025d" sourceLastImported="1468862950" sourcePlatform="macintosh" href="sounds/mirror9b.wav" soundDataHRef="M 136 1465575844.dat" format="44kHz 16bit Stereo" sampleCount="176400" dataLength="705600"/>
+          <DOMSoundItem name="sounds/mirror_1-3-5.wav" itemID="578d4d16-0000025e" sourceLastImported="1468862952" sourcePlatform="macintosh" href="sounds/mirror_1-3-5.wav" soundDataHRef="M 161 1465588043.dat" format="44kHz 16bit Stereo" sampleCount="176400" dataLength="705600"/>
+          <DOMSoundItem name="sounds/mirror_puzzle_success.wav" itemID="575aea71-00000301" sourceLastImported="1465584759" sourcePlatform="macintosh" href="sounds/mirror_puzzle_success.wav" soundDataHRef="M 112 1465575843.dat" format="44kHz 16bit Stereo" sampleCount="63577" dataLength="254308"/>
+          <DOMBitmapItem name="updated images/move button right.png" itemID="575b16a3-00000255" sourceLastImported="1465587261" sourcePlatform="macintosh" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="updated images/move button right.png" bitmapDataHRef="M 173 1465587363.dat" frameRight="3840" frameBottom="3660"/>
+          <DOMBitmapItem name="updated images/music box handle1.png" itemID="575b16f9-00000269" sourceLastImported="1465587325" sourcePlatform="macintosh" externalFileSize="498" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="updated images/music box handle1.png" bitmapDataHRef="M 164 1465587362.dat" frameRight="1240" frameBottom="680"/>
+          <DOMBitmapItem name="updated images/music box handle2.png" itemID="575b16f9-0000026a" sourceLastImported="1465587325" sourcePlatform="macintosh" externalFileSize="548" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="updated images/music box handle2.png" bitmapDataHRef="M 165 1465587363.dat" frameRight="1400" frameBottom="800"/>
+          <DOMBitmapItem name="updated images/music box handle3.png" itemID="575b16f9-0000026b" sourceLastImported="1465587325" sourcePlatform="macintosh" externalFileSize="422" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="updated images/music box handle3.png" bitmapDataHRef="M 166 1465587363.dat" frameRight="1800" frameBottom="340"/>
+          <DOMBitmapItem name="updated images/music box handle4.png" itemID="575b16f9-0000026c" sourceLastImported="1465587325" sourcePlatform="macintosh" externalFileSize="509" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="updated images/music box handle4.png" bitmapDataHRef="M 167 1465587363.dat" frameRight="1360" frameBottom="600"/>
+          <DOMBitmapItem name="updated images/music box.png" itemID="575b16f9-0000026d" sourceLastImported="1465587325" sourcePlatform="macintosh" externalFileSize="2918" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="updated images/music box.png" bitmapDataHRef="M 168 1465587363.dat" frameRight="4400" frameBottom="2720"/>
+          <DOMBitmapItem name="placeholders/One" itemID="574f3a22-000001e0" sourceLastImported="1464810018" sourcePlatform="macintosh" externalFileSize="252" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="placeholders/One.png" bitmapDataHRef="M 101 1464810014.dat" frameRight="680" frameBottom="1020"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/pan" itemID="574dca29-000002a6" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/pan" bitmapDataHRef="M 51 1464715817.dat" frameRight="3800" frameBottom="5440"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/magician's tent.psd Asset/Assets/password note" itemID="574dca29-000001df" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/magician's tent.psd Asset/Assets/password note" bitmapDataHRef="M 99 1464722941.dat" frameRight="3620" frameBottom="4820"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/password note" itemID="574df05c-000001c1" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/password note" bitmapDataHRef="M 12 1464715817.dat" frameRight="3620" frameBottom="4820"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/picture" itemID="574dca29-0000020b" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/picture" bitmapDataHRef="M 20 1464715817.dat" frameRight="5400" frameBottom="7360"/>
+          <DOMSoundItem name="sounds/picture_frame.wav" itemID="575aea71-00000302" sourceLastImported="1465584759" sourcePlatform="macintosh" href="sounds/picture_frame.wav" soundDataHRef="M 160 1465575844.dat" format="44kHz 16bit Stereo" sampleCount="5512" dataLength="22048"/>
+          <DOMSoundItem name="sounds/piece_of_paper_with_a_clue_on_it.wav" itemID="575aea71-00000303" sourceLastImported="1465584759" sourcePlatform="macintosh" href="sounds/piece_of_paper_with_a_clue_on_it.wav" soundDataHRef="M 120 1465575843.dat" format="44kHz 16bit Stereo" sampleCount="16836" dataLength="67344"/>
+          <DOMSoundItem name="sounds/pile_of_books.wav" itemID="575aea71-00000304" sourceLastImported="1465584759" sourcePlatform="macintosh" href="sounds/pile_of_books.wav" soundDataHRef="M 115 1465575843.dat" format="44kHz 16bit Stereo" sampleCount="39781" dataLength="159124"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/purple chest" itemID="574dca29-00000274" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/purple chest" bitmapDataHRef="M 41 1464715817.dat" frameRight="9580" frameBottom="6060"/>
+          <DOMBitmapItem name="updated images/purple chest lid closed.png" itemID="575b16f9-0000026e" sourceLastImported="1465587310" sourcePlatform="macintosh" externalFileSize="10619" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="updated images/purple chest lid closed.png" bitmapDataHRef="M 170 1465587363.dat" frameRight="9540" frameBottom="6040"/>
+          <DOMBitmapItem name="updated images/purple chest lid open.png" itemID="575b16f9-0000026f" sourceLastImported="1465587316" sourcePlatform="macintosh" externalFileSize="4967" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="updated images/purple chest lid open.png" bitmapDataHRef="M 169 1465587363.dat" frameRight="9880" frameBottom="3440"/>
+          <DOMBitmapItem name="updated images/purple chest.png" itemID="575b16f9-00000270" sourceLastImported="1465587304" sourcePlatform="macintosh" externalFileSize="9082" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="updated images/purple chest.png" bitmapDataHRef="M 171 1465587363.dat" frameRight="9580" frameBottom="5780"/>
+          <DOMSoundItem name="sounds/purple_chest_with_magic_wand.wav" itemID="575aea71-00000305" sourceLastImported="1465584759" sourcePlatform="macintosh" href="sounds/purple_chest_with_magic_wand.wav" soundDataHRef="M 105 1465575843.dat" format="44kHz 16bit Stereo" sampleCount="114843" dataLength="459372"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/red boots" itemID="574dca2a-000002bc" sourceLastImported="1464715818" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/red boots" bitmapDataHRef="M 55 1464715818.dat" frameRight="8640" frameBottom="11720"/>
+          <DOMSoundItem name="sounds/red_book_open.wav" itemID="575aea71-00000306" sourceLastImported="1465584759" sourcePlatform="macintosh" href="sounds/red_book_open.wav" soundDataHRef="M 122 1465575843.dat" format="44kHz 16bit Stereo" sampleCount="16514" dataLength="66056"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/rug" itemID="574dca29-000001bc" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/rug" bitmapDataHRef="M 5 1464715817.dat" frameRight="44640" frameBottom="4380"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/scissors closed" itemID="574dca29-000002a1" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/scissors closed" bitmapDataHRef="M 50 1464715817.dat" frameRight="4200" frameBottom="4860"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/scissors open" itemID="574dca29-0000029c" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/scissors open" bitmapDataHRef="M 49 1464715817.dat" frameRight="3120" frameBottom="5400"/>
+          <DOMSoundItem name="sounds/scissors_open_and_close.wav" itemID="575aea71-00000307" sourceLastImported="1465584759" sourcePlatform="macintosh" href="sounds/scissors_open_and_close.wav" soundDataHRef="M 161 1465575844.dat" format="44kHz 16bit Stereo" sampleCount="5512" dataLength="22048"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/scroll cut" itemID="574dca29-00000297" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/scroll cut" bitmapDataHRef="M 48 1464715817.dat" frameRight="5020" frameBottom="3320"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/scroll open" itemID="574dca29-0000028d" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/scroll open" bitmapDataHRef="M 46 1464715817.dat" frameRight="4620" frameBottom="5840"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/scroll tied" itemID="574dca29-00000292" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/scroll tied" bitmapDataHRef="M 47 1464715817.dat" frameRight="5020" frameBottom="2960"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/socks" itemID="574dca29-000001d0" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/socks" bitmapDataHRef="M 9 1464715817.dat" frameRight="6600" frameBottom="3900"/>
+          <DOMBitmapItem name="placeholders/Three" itemID="574f3b52-00000201" sourceLastImported="1464810322" sourcePlatform="macintosh" externalFileSize="483" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="placeholders/Three.png" bitmapDataHRef="M 103 1464810263.dat" frameRight="560" frameBottom="1020"/>
+          <DOMBitmapItem name="placeholders/Two" itemID="574f3af5-000001f5" sourceLastImported="1464810229" sourcePlatform="macintosh" externalFileSize="361" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="placeholders/Two.png" bitmapDataHRef="M 102 1464810224.dat" frameRight="560" frameBottom="1020"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/umbrella" itemID="574dca2a-000002b7" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/umbrella" bitmapDataHRef="M 54 1464715817.dat" frameRight="8160" frameBottom="11120"/>
+          <DOMSoundItem name="sounds/umbrella.wav" itemID="575aea71-00000308" sourceLastImported="1465584759" sourcePlatform="macintosh" href="sounds/umbrella.wav" soundDataHRef="M 162 1465575844.dat" format="44kHz 16bit Stereo" sampleCount="5512" dataLength="22048"/>
+          <DOMSoundItem name="sounds/unwrap_scroll.wav" itemID="575aea71-00000309" sourceLastImported="1465584759" sourcePlatform="macintosh" href="sounds/unwrap_scroll.wav" soundDataHRef="M 123 1465575843.dat" format="44kHz 16bit Stereo" sampleCount="16514" dataLength="66056"/>
+          <DOMSoundItem name="sounds/use_keys_on_right_thing.wav" itemID="575aea71-0000030a" sourceLastImported="1465584759" sourcePlatform="macintosh" href="sounds/use_keys_on_right_thing.wav" soundDataHRef="M 163 1465575844.dat" format="44kHz 16bit Stereo" sampleCount="5512" dataLength="22048"/>
+          <DOMSoundItem name="sounds/use_keys_on_wrong_thing.wav" itemID="575aea71-0000030b" sourceLastImported="1465584759" sourcePlatform="macintosh" href="sounds/use_keys_on_wrong_thing.wav" soundDataHRef="M 124 1465575843.dat" format="44kHz 16bit Stereo" sampleCount="16514" dataLength="66056"/>
+          <DOMSoundItem name="sounds/wand_appear.wav" itemID="575aea71-0000030c" sourceLastImported="1465584759" sourcePlatform="macintosh" href="sounds/wand_appear.wav" soundDataHRef="M 107 1465575843.dat" format="44kHz 16bit Stereo" sampleCount="77175" dataLength="308700"/>
+          <DOMSoundItem name="sounds/wand_pickup.wav" itemID="575aea71-0000030d" sourceLastImported="1465584759" sourcePlatform="macintosh" href="sounds/wand_pickup.wav" soundDataHRef="M 108 1465575843.dat" format="44kHz 16bit Stereo" sampleCount="77175" dataLength="308700"/>
+          <DOMBitmapItem name="magician's tent.psd Asset/Assets/yellow chest front" itemID="574dca29-00000210" sourceLastImported="1464715817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="magician's tent.psd Asset/Assets/yellow chest front" bitmapDataHRef="M 21 1464715817.dat" frameRight="8520" frameBottom="3820"/>
+     </media>
+     <symbols>
+          <Include href="background sliced and scaled.psd.xml" itemIcon="1" loadImmediate="false" itemID="574dcb8a-00000554" lastModified="1464722011"/>
+          <Include href="cursors and icons/keys_cursor.xml" loadImmediate="false" itemID="574e1190-000008a2" lastModified="1464734141"/>
+          <Include href="cursors and icons/keys_icon.xml" loadImmediate="false" itemID="574e116b-0000088c" lastModified="1464734059"/>
+          <Include href="cursors and icons/wand_cursor.xml" loadImmediate="false" itemID="574df38e-000003d7" lastModified="1466114461"/>
+          <Include href="cursors and icons/wand_icon.xml" loadImmediate="false" itemID="574df3bc-00000489" lastModified="1466114447"/>
+          <Include href="inventory.xml" loadImmediate="false" itemID="574de74c-000011f1" lastModified="1465915788"/>
+          <Include href="magician's tent.psd Asset/Assets/lamp flame/lamp flame.xml" loadImmediate="false" itemID="574dca29-000001fe" lastModified="1464715817"/>
+          <Include href="magician's tent.psd Asset/Assets/lamp flame/lamp flame's Outer Glow.xml" loadImmediate="false" itemID="574dca29-000001f9" lastModified="1464715817"/>
+          <Include href="magician's tent.psd Asset/Assets/lights/lights's Outer Glow.xml" loadImmediate="false" itemID="574dca29-000002ac" lastModified="1464715817"/>
+          <Include href="magician's tent.psd Asset/ball.xml" loadImmediate="false" itemID="574dca29-000001be" lastModified="1466090352"/>
+          <Include href="magician's tent.psd Asset/book.xml" loadImmediate="false" itemID="574dcc31-000005de" lastModified="1465576031"/>
+          <Include href="magician's tent.psd Asset/books.xml" loadImmediate="false" itemID="574dcc6f-000005fb" lastModified="1465576051"/>
+          <Include href="magician's tent.psd Asset/box lid.xml" loadImmediate="false" itemID="574dcca0-0000060d" lastModified="1465576074"/>
+          <Include href="magician's tent.psd Asset/bubbling.xml" loadImmediate="false" itemID="574dca29-000001eb" lastModified="1465576093"/>
+          <Include href="magician's tent.psd Asset/bubbling beakers.xml" loadImmediate="false" itemID="574dcccb-00000624" lastModified="1465576108"/>
+          <Include href="magician's tent.psd Asset/bunting1.xml" loadImmediate="false" itemID="574dca29-000001b4" lastModified="1466090519"/>
+          <Include href="magician's tent.psd Asset/bunting2.xml" loadImmediate="false" itemID="574dca29-000001af" lastModified="1466090548"/>
+          <Include href="magician's tent.psd Asset/cabinet lid open.xml" loadImmediate="false" itemID="574dca29-00000267" lastModified="1466626877"/>
+          <Include href="magician's tent.psd Asset/clock.xml" loadImmediate="false" itemID="574dca2a-000002c3" lastModified="1465576153"/>
+          <Include href="magician's tent.psd Asset/crystal ball.xml" loadImmediate="false" itemID="574dca29-0000026c" lastModified="1465576159"/>
+          <Include href="magician's tent.psd Asset/cushion.xml" loadImmediate="false" itemID="574dca29-00000217" lastModified="1465576168"/>
+          <Include href="magician's tent.psd Asset/drawer 1.xml" loadImmediate="false" itemID="574dd906-00000979" lastModified="1465576177"/>
+          <Include href="magician's tent.psd Asset/drawer 2.xml" loadImmediate="false" itemID="574dd909-0000097a" lastModified="1465576185"/>
+          <Include href="magician's tent.psd Asset/green books.xml" loadImmediate="false" itemID="574dca2a-000002be" lastModified="1465576197"/>
+          <Include href="magician's tent.psd Asset/ink and feather.xml" loadImmediate="false" itemID="574dca29-000001c3" lastModified="1466090853"/>
+          <Include href="magician's tent.psd Asset/keys.xml" loadImmediate="false" itemID="574dca2a-000002cd" lastModified="1465576223"/>
+          <Include href="magician's tent.psd Asset/lamp flame.xml" loadImmediate="false" itemID="574dca29-000001f5" lastModified="1465576247"/>
+          <Include href="magician's tent.psd Asset/lights.xml" loadImmediate="false" itemID="574dca29-000002a8" lastModified="1465584780"/>
+          <Include href="magician's tent.psd Asset/magic wand.xml" loadImmediate="false" itemID="574dca29-00000203" lastModified="1466628502"/>
+          <Include href="magician's tent.psd Asset/mirror1.xml" loadImmediate="false" itemID="574dca29-00000262" lastModified="1473884106"/>
+          <Include href="magician's tent.psd Asset/mirror2.xml" loadImmediate="false" itemID="574dca29-0000025d" lastModified="1473884104"/>
+          <Include href="magician's tent.psd Asset/mirror3.xml" loadImmediate="false" itemID="574dca29-00000258" lastModified="1473884103"/>
+          <Include href="magician's tent.psd Asset/mirror4.xml" loadImmediate="false" itemID="574dca29-00000253" lastModified="1473884102"/>
+          <Include href="magician's tent.psd Asset/mirror5.xml" loadImmediate="false" itemID="574dca29-0000024e" lastModified="1473884102"/>
+          <Include href="magician's tent.psd Asset/mirror6.xml" loadImmediate="false" itemID="574dca29-00000249" lastModified="1473884101"/>
+          <Include href="magician's tent.psd Asset/mirror7.xml" loadImmediate="false" itemID="574dca29-00000244" lastModified="1473884099"/>
+          <Include href="magician's tent.psd Asset/mirror8.xml" loadImmediate="false" itemID="574dca29-0000023f" lastModified="1473884099"/>
+          <Include href="magician's tent.psd Asset/mirror9.xml" loadImmediate="false" itemID="574dca29-0000023a" lastModified="1473884098"/>
+          <Include href="magician's tent.psd Asset/mirror10.xml" loadImmediate="false" itemID="574dca29-00000235" lastModified="1473884097"/>
+          <Include href="magician's tent.psd Asset/mirror11.xml" loadImmediate="false" itemID="574dca29-00000230" lastModified="1473885016"/>
+          <Include href="magician's tent.psd Asset/mirror12.xml" loadImmediate="false" itemID="574dca29-0000022b" lastModified="1473884096"/>
+          <Include href="magician's tent.psd Asset/mirror13.xml" loadImmediate="false" itemID="574dca29-00000226" lastModified="1473884095"/>
+          <Include href="magician's tent.psd Asset/mirror14.xml" loadImmediate="false" itemID="574dca29-00000221" lastModified="1473884095"/>
+          <Include href="magician's tent.psd Asset/music box.xml" loadImmediate="false" itemID="575ee91c-0000021d" lastModified="1473885573"/>
+          <Include href="magician's tent.psd Asset/pan.xml" loadImmediate="false" itemID="574dca29-000002a3" lastModified="1465576314"/>
+          <Include href="magician's tent.psd Asset/password note.xml" loadImmediate="false" itemID="574de5fc-00001062" lastModified="1464732659"/>
+          <Include href="magician's tent.psd Asset/picture.xml" loadImmediate="false" itemID="574dca29-00000208" lastModified="1465590848"/>
+          <Include href="magician's tent.psd Asset/purple chest.xml" loadImmediate="false" itemID="574dca29-00000271" lastModified="1509224302"/>
+          <Include href="magician's tent.psd Asset/red boots.xml" loadImmediate="false" itemID="574dca2a-000002b9" lastModified="1466090401"/>
+          <Include href="magician's tent.psd Asset/rug.xml" loadImmediate="false" itemID="574dca29-000001b9" lastModified="1465576364"/>
+          <Include href="magician's tent.psd Asset/scissors.xml" loadImmediate="false" itemID="574dd077-0000095a" lastModified="1466542671"/>
+          <Include href="magician's tent.psd Asset/scroll.xml" loadImmediate="false" itemID="574dd070-00000958" lastModified="1465576397"/>
+          <Include href="magician's tent.psd Asset/scroll note.xml" loadImmediate="false" itemID="574dfc75-00000a67" lastModified="1464810142"/>
+          <Include href="magician's tent.psd Asset/Symbol 1.xml" loadImmediate="false" itemID="576ac3a8-00000c39" lastModified="1466614696"/>
+          <Include href="magician's tent.psd Asset/Symbol 2.xml" loadImmediate="false" itemID="576ac454-00000c40" lastModified="1466614868"/>
+          <Include href="magician's tent.psd Asset/Symbol 3.xml" loadImmediate="false" itemID="576ac4a5-00000c47" lastModified="1466614949"/>
+          <Include href="magician's tent.psd Asset/Symbol 4.xml" loadImmediate="false" itemID="576ac4c8-00000c4e" lastModified="1466614984"/>
+          <Include href="magician's tent.psd Asset/Symbol 5.xml" loadImmediate="false" itemID="576ac4f1-00000c55" lastModified="1466615025"/>
+          <Include href="magician's tent.psd Asset/Symbol 6.xml" loadImmediate="false" itemID="576ac517-00000c5c" lastModified="1466615063"/>
+          <Include href="magician's tent.psd Asset/Symbol 7.xml" loadImmediate="false" itemID="576ac53a-00000c63" lastModified="1466615098"/>
+          <Include href="magician's tent.psd Asset/Symbol 8.xml" loadImmediate="false" itemID="576ac553-00000c6a" lastModified="1466615123"/>
+          <Include href="magician's tent.psd Asset/Symbol 9.xml" loadImmediate="false" itemID="576ac576-00000c71" lastModified="1466615158"/>
+          <Include href="magician's tent.psd Asset/Symbol 10.xml" loadImmediate="false" itemID="576ac5a0-00000c78" lastModified="1466615200"/>
+          <Include href="magician's tent.psd Asset/Symbol 11.xml" loadImmediate="false" itemID="576ac5b4-00000c7f" lastModified="1466615220"/>
+          <Include href="magician's tent.psd Asset/Symbol 12.xml" loadImmediate="false" itemID="576ac5ce-00000c86" lastModified="1466615246"/>
+          <Include href="magician's tent.psd Asset/Symbol 13.xml" loadImmediate="false" itemID="576ac5ef-00000c8d" lastModified="1466615279"/>
+          <Include href="magician's tent.psd Asset/Symbol 14.xml" loadImmediate="false" itemID="576ac678-00000c96" lastModified="1466615416"/>
+          <Include href="magician's tent.psd Asset/umbrella.xml" loadImmediate="false" itemID="574dca29-000002b4" lastModified="1466090427"/>
+          <Include href="magician's tent.psd Asset/yellow chest.xml" loadImmediate="false" itemID="574dcf1c-0000090a" lastModified="1464721011"/>
+          <Include href="messageContainer.xml" loadImmediate="false" itemID="574de793-00001299" lastModified="1466534383"/>
+          <Include href="placeholders/blank.xml" loadImmediate="false" itemID="57e3ee3b-0000013c" lastModified="1474555451"/>
+          <Include href="placeholders/combolock_number.xml" loadImmediate="false" itemID="574f3939-000001d8" lastModified="1509231505"/>
+          <Include href="placeholders/scroll button.xml" loadImmediate="false" itemID="574de6cd-00001144" lastModified="1465587793"/>
+          <Include href="stageContainer.xml" loadImmediate="false" itemID="574dcc00-000005b1" lastModified="1509231499"/>
+          <Include href="Tween 23.xml" itemIcon="1" loadImmediate="false" itemID="57d9a75f-00000285" lastModified="1473881951"/>
+          <Include href="Tween 24.xml" itemIcon="1" loadImmediate="false" itemID="57d9a75f-0000028b" lastModified="1473881951"/>
+          <Include href="Tween 25.xml" itemIcon="1" loadImmediate="false" itemID="57d9a75f-00000291" lastModified="1473881951"/>
+          <Include href="Tween 26.xml" itemIcon="1" loadImmediate="false" itemID="57d9a75f-00000297" lastModified="1473881951"/>
+          <Include href="tween symbols/Lights for tweening.xml" itemIcon="1" loadImmediate="false" itemID="574de349-00000f0a" lastModified="1466533783"/>
+          <Include href="tween symbols/Tween 1.xml" itemIcon="1" loadImmediate="false" itemID="574df206-000001ca" lastModified="1466533823"/>
+          <Include href="tween symbols/Tween 2.xml" itemIcon="1" loadImmediate="false" itemID="574df206-000001d1" lastModified="1466533825"/>
+          <Include href="tween symbols/Tween 3.xml" itemIcon="1" loadImmediate="false" itemID="574df89c-00000811" lastModified="1466533836"/>
+          <Include href="tween symbols/Tween 4.xml" itemIcon="1" loadImmediate="false" itemID="574df89c-00000818" lastModified="1466533869"/>
+          <Include href="tween symbols/Tween 5.xml" itemIcon="1" loadImmediate="false" itemID="574df89c-0000081f" lastModified="1466533850"/>
+          <Include href="tween symbols/Tween 6.xml" itemIcon="1" loadImmediate="false" itemID="574df89c-00000826" lastModified="1464727708"/>
+          <Include href="tween symbols/Tween 7.xml" itemIcon="1" loadImmediate="false" itemID="574df89c-0000082d" lastModified="1464727708"/>
+          <Include href="tween symbols/Tween 8.xml" itemIcon="1" loadImmediate="false" itemID="574df89c-00000834" lastModified="1464727708"/>
+          <Include href="tween symbols/Tween 9.xml" itemIcon="1" loadImmediate="false" itemID="574df8c1-0000083b" lastModified="1464727745"/>
+          <Include href="tween symbols/Tween 10.xml" itemIcon="1" loadImmediate="false" itemID="574df8c1-00000842" lastModified="1464727745"/>
+          <Include href="tween symbols/Tween 11.xml" itemIcon="1" loadImmediate="false" itemID="574df8db-00000849" lastModified="1465592928"/>
+          <Include href="tween symbols/Tween 12.xml" itemIcon="1" loadImmediate="false" itemID="574dfde9-00000bf2" lastModified="1464729065"/>
+          <Include href="tween symbols/Tween 13.xml" itemIcon="1" loadImmediate="false" itemID="574e09f9-000001e7" lastModified="1464732153"/>
+          <Include href="tween symbols/Tween 14.xml" itemIcon="1" loadImmediate="false" itemID="574e0e08-0000065d" lastModified="1464733192"/>
+          <Include href="tween symbols/Tween 15.xml" itemIcon="1" loadImmediate="false" itemID="574f4545-00000507" lastModified="1464812869"/>
+          <Include href="tween symbols/Tween 16.xml" itemIcon="1" loadImmediate="false" itemID="574f4e2e-00000646" lastModified="1464815150"/>
+          <Include href="tween symbols/Tween 17.xml" itemIcon="1" loadImmediate="false" itemID="575b2279-0000029d" lastModified="1465590393"/>
+          <Include href="tween symbols/Tween 18.xml" itemIcon="1" loadImmediate="false" itemID="57601c40-00000e06" lastModified="1466533880"/>
+          <Include href="tween symbols/Tween 19.xml" itemIcon="1" loadImmediate="false" itemID="57601c40-00000e0c" lastModified="1466533894"/>
+          <Include href="tween symbols/Tween 20.xml" itemIcon="1" loadImmediate="false" itemID="5762c0f5-00000221" lastModified="1466089717"/>
+          <Include href="tween symbols/Tween 21.xml" itemIcon="1" loadImmediate="false" itemID="5762c0f5-00000228" lastModified="1466089717"/>
+          <Include href="tween symbols/Tween 22.xml" itemIcon="1" loadImmediate="false" itemID="5762c520-00000268" lastModified="1466090784"/>
+     </symbols>
+     <timelines>
+          <DOMTimeline name="Scene 1">
+               <layers>
+                    <DOMLayer name="cursors" color="#4F80FF" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="inventoryContainer" color="#FF800A" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="inventory" name="inventoryContainer">
+                                             <matrix>
+                                                  <Matrix tx="1445.5" ty="1815.85"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="-0.5" y="6.45"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="buttons" color="#4F80FF" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="placeholders/scroll button" name="lefty">
+                                             <matrix>
+                                                  <Matrix a="-1" tx="-1.1" ty="1007.55"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="-2.25" y="-0.25"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="placeholders/scroll button" name="righty">
+                                             <matrix>
+                                                  <Matrix tx="1437" ty="1029.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="-2.25" y="-0.25"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="messageContainer" color="#9933CC" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="messageContainer" name="messageContainer" centerPoint3DX="264.45" centerPoint3DY="1818.75">
+                                             <matrix>
+                                                  <Matrix tx="265.4" ty="1824.2"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="stageContainer" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="stageContainer" name="stageContainer" selected="true" centerPoint3DX="3103.25" centerPoint3DY="1024">
+                                             <matrix>
+                                                  <Matrix a="2" d="2" tx="0.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timelines>
+     <extendedSwatchLists>
+          <swatchList>
+               <swatchListInfo name="Default Swatches"/>
+
+               <swatches>
+                    <swatchListInfo name="Default Swatches"/>
+
+                    <LinearGradientSwatchItem>
+                         <GradientEntry color="#FFFFFF" ratio="0"/>
+                         <GradientEntry ratio="1"/>
+                    </LinearGradientSwatchItem>
+                    <RadialGradientSwatchItem>
+                         <GradientEntry color="#FFFFFF" ratio="0"/>
+                         <GradientEntry ratio="1"/>
+                    </RadialGradientSwatchItem>
+                    <RadialGradientSwatchItem>
+                         <GradientEntry color="#FF0000" ratio="0"/>
+                         <GradientEntry ratio="1"/>
+                    </RadialGradientSwatchItem>
+                    <RadialGradientSwatchItem>
+                         <GradientEntry color="#00FF00" ratio="0"/>
+                         <GradientEntry ratio="1"/>
+                    </RadialGradientSwatchItem>
+                    <RadialGradientSwatchItem>
+                         <GradientEntry color="#0000FF" ratio="0"/>
+                         <GradientEntry ratio="1"/>
+                    </RadialGradientSwatchItem>
+                    <LinearGradientSwatchItem>
+                         <GradientEntry color="#0066FD" ratio="0"/>
+                         <GradientEntry color="#FFFFFF" ratio="0.376470588235294"/>
+                         <GradientEntry color="#FFFFFF" ratio="0.47843137254902"/>
+                         <GradientEntry color="#996600" ratio="0.501960784313725"/>
+                         <GradientEntry color="#FFCC00" ratio="0.666666666666667"/>
+                         <GradientEntry color="#FFFFFF" ratio="1"/>
+                    </LinearGradientSwatchItem>
+                    <LinearGradientSwatchItem>
+                         <GradientEntry color="#FF0000" ratio="0"/>
+                         <GradientEntry color="#FFFF00" ratio="0.164705882352941"/>
+                         <GradientEntry color="#00FF00" ratio="0.364705882352941"/>
+                         <GradientEntry color="#00FFFF" ratio="0.498039215686275"/>
+                         <GradientEntry color="#0000FF" ratio="0.666666666666667"/>
+                         <GradientEntry color="#FF00FF" ratio="0.831372549019608"/>
+                         <GradientEntry color="#FF0000" ratio="1"/>
+                    </LinearGradientSwatchItem>
+                    <RadialGradientSwatchItem>
+                         <GradientEntry color="#FFFF00" ratio="0"/>
+                         <GradientEntry color="#FFFFFF" alpha="0" ratio="1"/>
+                    </RadialGradientSwatchItem>
+               </swatches>
+          </swatchList>
+     </extendedSwatchLists>
+     <persistentData>
+          <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+     </persistentData>
+     <PrinterSettings platform="macintosh"/>
+     <publishHistory/>
+</DOMDocument>

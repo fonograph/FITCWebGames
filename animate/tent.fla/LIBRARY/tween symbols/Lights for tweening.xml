@@ -1,0 +1,26 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="tween symbols/Lights for tweening" itemID="574de349-00000f0a" symbolType="graphic" lastModified="1466533783">
+  <timeline>
+    <DOMTimeline name="Lights for tweening">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="magician's tent.psd Asset/Assets/lights/lights's Outer Glow">
+                  <transformationPoint>
+                    <Point x="562" y="228"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMBitmapInstance selected="true" libraryItemName="magician's tent.psd Asset/Assets/lights/lights">
+                  <matrix>
+                    <Matrix tx="54" ty="54"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

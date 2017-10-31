@@ -1,0 +1,66 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="magician's tent.psd Asset/ink and feather" itemID="574dca29-000001c3" lastModified="1466090853">
+  <timeline>
+    <DOMTimeline name="ink and feather" currentFrame="8">
+      <layers>
+        <DOMLayer name="actions" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" name="Off" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" duration="7" name="On" labelType="name" keyMode="9728" soundName="sounds/feather.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4F80FF">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="magician's tent.psd Asset/Assets/ink and feather"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="tween symbols/Tween 22" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="59" ty="168"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-59" y="168"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="tween symbols/Tween 22" symbolType="graphic" centerPoint3DX="38.15" centerPoint3DY="162" loop="loop">
+                  <matrix>
+                    <Matrix a="0.992660522460938" b="-0.12091064453125" c="0.12091064453125" d="0.992660522460938" tx="38.2" ty="162.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-58.95" y="168.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="8" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="tween symbols/Tween 22" symbolType="graphic" centerPoint3DX="60.85" centerPoint3DY="168.9" loop="loop">
+                  <matrix>
+                    <Matrix a="0.999908447265625" b="0.0131683349609375" c="-0.0131683349609375" d="0.999908447265625" tx="61.2" ty="168.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-58.95" y="168.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

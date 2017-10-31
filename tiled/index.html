@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <script src="phaser.js"></script>
+    <script>
+        var game = new Phaser.Game(800, 600, Phaser.AUTO, 'phaser-example', { preload: preload, create: create, update: update });
+
+        function preload() {
+            game.load.tilemap('level', 'assets/level.json', null, Phaser.Tilemap.TILED_JSON);
+            game.load.image('tiles', 'assets/tileset.png');
+            game.load.image('player', 'assets/betty.png');
+            game.load.image('invisible', 'assets/invisible.png');
+            game.load.audio('sound', 'assets/sound.mp3');
+        }
+
+        let player;
+        let cursor;
+        let soundRect;
+        let playedSound;
+
+        function create() {
+            game.physics.startSystem(Phaser.Physics.P2JS);
+            game.physics.p2.gravity.y = 800;
+
+
+            const map = game.add.tilemap('level');
+            map.addTilesetImage('tileset', 'tiles');
+
+            map.createLayer('_floor');
+            map.createLayer('Obstacles');
+
+            const obstacles = map.layers[map.getLayer('Obstacles')];
+            for (var y = 0; y < obstacles.height; y++) {
+                for ( var x = 0; x < obstacles.width; x++ ) {
+                    var tile = obstacles.data[y][x];
+                    if ( tile.properties.walkable === 'false' ) {
+                        const block = game.add.sprite(tile.worldX + tile.width/2, tile.worldY + tile.height/2, 'invisible');
+                        game.physics.p2.enable([block], true);
+                        block.body.static = true;
+                    }
+                }
+            }
+
+            map.objects['Dialog'].forEach(function(obj){
+                if(obj.name === 'tutorial_exit') {
+                    soundRect = new Phaser.Rectangle(obj.x, obj.y, obj.width, obj.height);
+                }
+            });
+
+            this.game.world.setBounds(0, 0, obstacles.widthInPixels, obstacles.heightInPixels);
+
+            player = game.add.sprite(200, 400, 'player');
+            player.scale.set(0.5);
+            game.physics.p2.enable([player], true);
+
+            game.camera.follow(player);
+
+            cursors = game.input.keyboard.createCursorKeys();
+
+        }
+
+        function update() {
+
+            if (cursors.left.isDown)
+            {
+                player.body.moveLeft(200);
+            }
+            else if (cursors.right.isDown)
+            {
+                player.body.moveRight(200);
+            }
+
+            if (cursors.up.isDown)
+            {
+                player.body.moveUp(200);
+            }
+            else if (cursors.down.isDown)
+            {
+                player.body.moveDown(200);
+            }
+
+            if ( Phaser.Rectangle.contains(soundRect, player.x, player.y) ) {
+                if ( !playedSound ) {
+                    game.sound.play('sound');
+                    playedSound = true;
+                }
+            }
+            else {
+                playedSound = false;
+            }
+
+
+        }
+
+    </script>
+</body>
+</html>

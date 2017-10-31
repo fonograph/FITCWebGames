@@ -1,0 +1,71 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="magician's tent.psd Asset/picture" itemID="574dca29-00000208" lastModified="1465590848">
+  <persistentData>
+    <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+  </persistentData>
+  <timeline>
+    <DOMTimeline name="picture" currentFrame="15">
+      <layers>
+        <DOMLayer name="actions" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" name="Off" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" duration="14" name="On" labelType="name" keyMode="9728" soundName="sounds/picture_frame.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4F80FF">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="magician's tent.psd Asset/Assets/picture"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" duration="13" tweenType="motion" motionTweenRotate="clockwise" motionTweenRotateTimes="1" motionTweenSnap="true" hasCustomEase="true" keyMode="22017" acceleration="-81">
+              <tweens>
+                <CustomEase target="all">
+                  <Point/>
+                  <Point x="0.0193" y="0.035"/>
+                  <Point x="0.1712" y="0.199"/>
+                  <Point x="0.21" y="0.5323"/>
+                  <Point x="0.2369" y="0.7632"/>
+                  <Point x="0.3321" y="1"/>
+                  <Point x="0.5" y="1"/>
+                  <Point x="0.6779" y="0.9535"/>
+                  <Point x="0.7665" y="1"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="tween symbols/Tween 17" symbolType="graphic" centerPoint3DX="135" centerPoint3DY="184" loop="loop">
+                  <matrix>
+                    <Matrix tx="135" ty="184"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="15" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="tween symbols/Tween 17" symbolType="graphic" centerPoint3DX="135" centerPoint3DY="184" loop="loop">
+                  <matrix>
+                    <Matrix a="0.999984741210938" b="1.52587890625e-05" c="-1.52587890625e-05" d="0.999984741210938" tx="135" ty="184"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,204 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="magician's tent.psd Asset/music box" itemID="575ee91c-0000021d" lastModified="1473885573">
+  <persistentData>
+    <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+  </persistentData>
+  <timeline>
+    <DOMTimeline name="music box" currentFrame="189">
+      <layers>
+        <DOMLayer name="Layer 3" color="#FF800A">
+          <frames>
+            <DOMFrame index="0" duration="2" name="Off" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" duration="93" name="On" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="95" duration="95" keyMode="9728" soundName="sounds/mirror_1-3-5.wav">
+              <SoundEnvelope>
+                <SoundEnvelopePoint level0="32768" level1="32768"/>
+              </SoundEnvelope>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="190" duration="2" name="Hidden" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="updated images/music box handle1.png">
+                  <matrix>
+                    <Matrix tx="-137.95"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" duration="42" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-29">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Tween 23" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-106.95" ty="17"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="44" duration="50" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-29">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Tween 24" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-106.95" ty="-14"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="94" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Tween 24" selected="true" symbolType="graphic" centerPoint3DX="-110.85" centerPoint3DY="19.35" loop="loop">
+                  <matrix>
+                    <Matrix tx="-110.85" ty="19.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="95" duration="25" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="updated images/music box handle2.png">
+                  <matrix>
+                    <Matrix tx="-145.95"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="120" duration="26" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="updated images/music box handle3.png">
+                  <matrix>
+                    <Matrix tx="-166.2"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="146" duration="44" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="updated images/music box handle4.png">
+                  <matrix>
+                    <Matrix tx="-144.2" ty="-13"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="190" duration="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="updated images/music box.png">
+                  <matrix>
+                    <Matrix tx="-113" ty="-70"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" duration="42" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-29">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Tween 25" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-3" ty="-2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="44" duration="50" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-29">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Tween 26" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-3" ty="-33"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="94" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Tween 26" selected="true" symbolType="graphic" centerPoint3DX="-3" centerPoint3DY="-2.6" loop="loop">
+                  <matrix>
+                    <Matrix tx="-3" ty="-2.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="95" duration="95" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="updated images/music box.png">
+                  <matrix>
+                    <Matrix tx="-113" ty="-70"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="190" duration="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 4" color="#FF4FFF">
+          <frames>
+            <DOMFrame index="0" duration="95" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="95" duration="25" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="Bitmap 1">
+                  <matrix>
+                    <Matrix tx="-228.25" ty="-99"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="120" duration="26" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="Bitmap 2">
+                  <matrix>
+                    <Matrix tx="-228.25" ty="-99"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="146" duration="44" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="Bitmap 3">
+                  <matrix>
+                    <Matrix tx="-228.25" ty="-99"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

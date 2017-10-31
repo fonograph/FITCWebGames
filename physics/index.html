@@ -1,0 +1,30 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript" src="phaser.js"></script>
+	<script>
+		var game = new Phaser.Game(800, 600, Phaser.CANVAS, 'phaser-example', { preload: preload, create: create });
+
+		function preload() {
+		    game.load.image("betty", "assets/betty.png");
+    		game.load.physics("sprite_physics", "assets/physics.json");
+		}
+
+		function create() {
+		    game.physics.startSystem(Phaser.Physics.P2JS);
+		    game.physics.p2.gravity.y = 1000;
+
+		    var player = game.add.sprite(200, 100, 'betty');
+		    game.physics.p2.enable([player], true);
+		    // game.physics.p2.restitution = 1;
+
+    		player.body.clearShapes();
+    		player.body.loadPolygon("sprite_physics", "betty");
+  			player.body.velocity.x = 200;
+		}
+
+	</script>
+</body>
+</html>

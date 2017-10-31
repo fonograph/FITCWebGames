@@ -1,0 +1,111 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<canvas width="1600" height="768" id="canvas">
+
+	<script type="text/javascript" src="lib/preloadjs.js"></script>
+	<script type="text/javascript" src="lib/easeljs.js"></script>
+	<script type="text/javascript" src="lib/tweenjs.js"></script>
+	<script type="text/javascript" src="lib/soundjs.js"></script>
+	<script type="text/javascript" src="tent.js"></script>
+	<script>
+		const queue = new createjs.LoadQueue();
+		queue.installPlugin(createjs.Sound);
+		queue.loadManifest(lib.properties.manifest, false);
+        queue.addEventListener("fileload", (evt)=>{
+        	if (evt.item.type == "image") {
+                images[evt.item.id] = evt.result;
+            }	
+        });
+        queue.on("complete", ()=>{
+        	const canvas = document.getElementById('canvas');
+			const stage = new createjs.StageGL(canvas);
+			const tent = new lib.tent();
+
+            tent.gotoAndStop(0);
+            tent.stageContainer.gotoAndStop(0);
+
+            tent.scaleX = tent.scaleY = 0.25;
+            console.log(tent.height);
+
+            stage.addChild(tent);
+
+			createjs.Ticker.setFPS(24);
+            createjs.Ticker.addEventListener("tick", stage);
+
+			const things = ['combolock_number_3','combolock_number_2','combolock_number_1','keys_cursor','wand_cursor','note2','note','book','keys_pickup','box','clock','greenbooks','umbrella','boots','pan','scissors','books','musicbox','purplechest','scroll','crystalball','mirror1','mirror2','mirror3','mirror4','mirror5','mirror6','mirror7','mirror8','mirror9','mirror10','mirror11','mirror12','mirror13','mirror14','picture','yellowchest','feather','ball','rug'];
+			things.forEach((thing)=>{
+				new Interactable(tent.stageContainer[thing]);
+			});
+
+        });
+        queue.load();
+
+		window.playSound = function(id, _loop) {
+            var sound = createjs.Sound.play(id, {interrupt: createjs.Sound.INTERRUPT_ANY, loop: (_loop?-1:0), volume: 1});
+            if(sound.playState!="playSucceeded") {
+                console.log(sound);
+            }
+            if(!_loop) {
+                sound.on("complete", function(e){e.target.destroy();});
+            }
+            return sound;
+        };
+
+
+
+        function Interactable(target) {
+		    this.handleTick = (event) => {
+		        var currentFrame = event.currentTarget.currentFrame;
+		        var loopPoint = loopPoints[currentState];
+		        if(currentFrame >= loopPoint)
+		        {
+		        	target.paused = true;
+		        }
+		    }
+
+		    this.handleClick = (event) => {
+		        this.increment();
+		    }
+
+		    this.repeat = () => { 
+		        this.playAnimation(currentState); 
+		    }
+
+		    this.increment = () => {
+		        var newState = currentState + 1;
+		        newState = (newState % states.length);
+		        this.setState(newState);
+		    }
+
+		    this.setState = (newstate) => {
+		        currentState = newstate;
+		        this.playAnimation(currentState);
+		        console.log(currentState);
+		    }
+
+		    this.playAnimation = (state) => {
+		        target.gotoAndPlay(states[state]);
+		    }
+
+		    target.addEventListener("click", this.handleClick);
+
+		    var states = target.labels.map((n)=>n.label);
+		    var duration = target.timeline.duration;
+		    var loopPoints = target.labels.map((n)=>(n.position-1 + duration) % duration);
+		    loopPoints.push(loopPoints.shift());
+
+		    var currentState = 0;
+		  
+		    target.addEventListener("tick", this.handleTick);
+		    target.loop = false;
+
+		    this.playAnimation(currentState);
+		}
+		createjs.EventDispatcher.initialize(Interactable.prototype);
+
+	</script>
+</body>
+</html>

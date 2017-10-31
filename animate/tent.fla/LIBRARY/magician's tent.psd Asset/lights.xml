@@ -1,0 +1,84 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="magician's tent.psd Asset/lights" itemID="574dca29-000002a8" lastModified="1465584780" lastUniqueIdentifier="1">
+  <persistentData>
+    <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+  </persistentData>
+  <timeline>
+    <DOMTimeline name="lights" currentFrame="2">
+      <layers>
+        <DOMLayer name="actions" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" name="Off" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" duration="83" name="On" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" duration="85" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#00FF00" alpha="0.247058823529412"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!1106 6698/6422 6053!6422 6053/13335 4332!13335 4332/21170 369!21170 369/21661 2181!21661 2181/19080 4025!19080 4025/9525 7374!9525 7374/1137 8080!1137 8080/1106 6698"/>
+                    <Edge cubics="!21170 369(;21170,369 21661,2181 21661,2181p21170 369 21661 2181);"/>
+                    <Edge cubics="!1137 8080(;1137,8080 1106,6698 1106,6698p1137 8080 1106 6698);"/>
+                    <Edge cubics="!1106 6698(;1106,6698 6422,6053 6422,6053p1106 6698q6422 6053);"/>
+                    <Edge cubics="!6422 6053(;6422,6053 13335,4332 13335,4332q6422 6053p13335 4332);"/>
+                    <Edge cubics="!13335 4332(;13335,4332 21170,369 21170,369p13335 4332 21170 369);"/>
+                    <Edge cubics="!21661 2181(;21661,2181 19080,4025 19080,4025q21661 2181 19080 4025);"/>
+                    <Edge cubics="!19080 4025(;19080,4025 9525,7374 9525,7374q19080 4025p9525 7374);"/>
+                    <Edge cubics="!9525 7374(;9525,7374 1137,8080 1137,8080p9525 7374 1137 8080);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="lights" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" duration="38" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="tween symbols/Lights for tweening" symbolType="graphic" centerPoint3DX="562" centerPoint3DY="228" loop="loop">
+                  <transformationPoint>
+                    <Point x="562" y="228"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="40" duration="44" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="tween symbols/Lights for tweening" symbolType="graphic" centerPoint3DX="562" centerPoint3DY="228" loop="loop">
+                  <transformationPoint>
+                    <Point x="562" y="228"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.73046875"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="84" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="tween symbols/Lights for tweening" symbolType="graphic" centerPoint3DX="562" centerPoint3DY="228" loop="loop">
+                  <transformationPoint>
+                    <Point x="562" y="228"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

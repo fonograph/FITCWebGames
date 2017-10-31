@@ -1,0 +1,90 @@
+
+morro_stupid.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+back arm
+  rotate: false
+  xy: 1465, 181
+  size: 250, 441
+  orig: 250, 441
+  offset: 0, 0
+  index: -1
+backhairbase
+  rotate: false
+  xy: 974, 624
+  size: 718, 392
+  orig: 718, 392
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 35
+  size: 593, 981
+  orig: 593, 981
+  offset: 0, 0
+  index: -1
+facebase
+  rotate: false
+  xy: 974, 189
+  size: 489, 433
+  orig: 489, 433
+  offset: 0, 0
+  index: -1
+frontarm
+  rotate: false
+  xy: 597, 93
+  size: 375, 923
+  orig: 375, 923
+  offset: 0, 0
+  index: -1
+left brow
+  rotate: false
+  xy: 2, 2
+  size: 75, 31
+  orig: 75, 31
+  offset: 0, 0
+  index: -1
+left pupil
+  rotate: false
+  xy: 1774, 993
+  size: 23, 23
+  orig: 23, 23
+  offset: 0, 0
+  index: -1
+lefteye
+  rotate: true
+  xy: 597, 42
+  size: 49, 57
+  orig: 49, 57
+  offset: 0, 0
+  index: -1
+nose copy 4
+  rotate: false
+  xy: 1694, 938
+  size: 78, 78
+  orig: 78, 78
+  offset: 0, 0
+  index: -1
+right brow
+  rotate: false
+  xy: 1694, 908
+  size: 38, 28
+  orig: 38, 28
+  offset: 0, 0
+  index: -1
+right pupil
+  rotate: false
+  xy: 79, 13
+  size: 19, 20
+  orig: 19, 20
+  offset: 0, 0
+  index: -1
+righteye
+  rotate: false
+  xy: 974, 136
+  size: 41, 51
+  orig: 41, 51
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,762 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="stageContainer" itemID="574dcc00-000005b1" lastModified="1509231499">
+  <persistentData>
+    <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+  </persistentData>
+  <timeline>
+    <DOMTimeline name="stageContainer">
+      <layers>
+        <DOMLayer name="even more books" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="more books" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="combolock 3" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="placeholders/combolock_number" name="combolock_number_3" centerPoint3DX="269.95" centerPoint3DY="262.7">
+                  <matrix>
+                    <Matrix a="0.625" d="0.625" tx="270.55" ty="260.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-0.95" y="3.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="combolock 2" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="placeholders/combolock_number" name="combolock_number_2" centerPoint3DX="228.55" centerPoint3DY="254.45">
+                  <matrix>
+                    <Matrix a="0.625" d="0.625" tx="229.15" ty="252.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-0.95" y="3.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="combolock 1" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="placeholders/combolock_number" name="combolock_number_1" centerPoint3DX="183.9" centerPoint3DY="245.25">
+                  <matrix>
+                    <Matrix a="0.625" d="0.625" tx="184.7" ty="243.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-0.95" y="3.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="keys cursor" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="cursors and icons/keys_cursor" name="keys_cursor" centerPoint3DX="293.05" centerPoint3DY="-221.1">
+                  <matrix>
+                    <Matrix a="0.5" d="0.5" tx="258.05" ty="-261.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="70" y="80"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="wand cursor" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="cursors and icons/wand_cursor" name="wand_cursor" centerPoint3DX="352.25" centerPoint3DY="-234.6">
+                  <matrix>
+                    <Matrix a="0.199996948242188" d="0.199996948242188" tx="311.45" ty="-258.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-5" y="-1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="note2" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="magician's tent.psd Asset/password note" name="note2" centerPoint3DX="2117.5" centerPoint3DY="469">
+                  <matrix>
+                    <Matrix a="0.634994506835938" d="0.634994506835938" tx="2060.05" ty="392.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="90.45" y="120.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="note" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="magician's tent.psd Asset/scroll note" name="note" centerPoint3DX="1184.7" centerPoint3DY="712.05">
+                  <matrix>
+                    <Matrix a="0.625" d="0.625" tx="1184.4" ty="712.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="book" color="#009999" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="magician's tent.psd Asset/book" name="book" centerPoint3DX="2040.15" centerPoint3DY="685.05">
+                  <matrix>
+                    <Matrix a="0.651809692382812" d="0.651809692382812" tx="1987.05" ty="632.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="81.45" y="100.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="keys" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="magician's tent.psd Asset/keys" name="keys_pickup" centerPoint3DX="245.8" centerPoint3DY="163.55">
+                  <matrix>
+                    <Matrix a="0.651809692382812" d="0.651809692382812" tx="200.2" ty="111.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="box" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="magician's tent.psd Asset/box lid" name="box" selected="true" centerPoint3DX="114.55" centerPoint3DY="272.1">
+                  <matrix>
+                    <Matrix a="0.651809692382812" d="0.651809692382812" tx="-85.35" ty="145.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="306" y="100.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="clock" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="magician's tent.psd Asset/clock" name="clock" centerPoint3DX="49.9" centerPoint3DY="516.9">
+                  <matrix>
+                    <Matrix a="0.651809692382812" d="0.651809692382812" tx="-7.8" ty="441.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="88.5" y="115"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="green books" color="#009999" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="magician's tent.psd Asset/green books" name="greenbooks" centerPoint3DX="256.2" centerPoint3DY="527.65">
+                  <matrix>
+                    <Matrix a="0.651809692382812" d="0.651809692382812" tx="140.15" ty="471.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="178.05" y="86.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="umbrella" color="#669900" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="magician's tent.psd Asset/umbrella" name="umbrella" centerPoint3DX="144.05" centerPoint3DY="793.9">
+                  <matrix>
+                    <Matrix a="0.651809692382812" d="0.651809692382812" tx="11.1" ty="612.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="204" y="278"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="red boots" color="#808080" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="magician's tent.psd Asset/red boots" name="boots" centerPoint3DX="239.9" centerPoint3DY="799.75">
+                  <matrix>
+                    <Matrix a="0.651809692382812" d="0.651809692382812" tx="99.1" ty="608.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="216" y="292.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="lights" color="#FF4F4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="pan" color="#4F80FF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="magician's tent.psd Asset/pan" name="pan" centerPoint3DX="743.7" centerPoint3DY="232.7">
+                  <matrix>
+                    <Matrix a="0.651809692382812" d="0.651809692382812" tx="681.8" ty="144.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="94.95" y="136"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="scissors" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="magician's tent.psd Asset/scissors" name="scissors" centerPoint3DX="559.9" centerPoint3DY="703.55">
+                  <matrix>
+                    <Matrix a="0.249130249023438" b="0.23785400390625" c="-0.23785400390625" d="0.249130249023438" tx="529.2" ty="651.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="105.5" y="121.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bowl" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bubbling beakers" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="books" color="#009999" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="magician's tent.psd Asset/books" name="books" centerPoint3DX="959.15" centerPoint3DY="670.4">
+                  <matrix>
+                    <Matrix a="0.651809692382812" d="0.651809692382812" tx="858.45" ty="536.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="154.5" y="205.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="music box" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="magician's tent.psd Asset/music box" name="musicbox" centerPoint3DX="1184.4" centerPoint3DY="524.05">
+                  <matrix>
+                    <Matrix a="0.634994506835938" d="0.634994506835938" tx="1184.4" ty="524.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="purple chest" color="#808080" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="magician's tent.psd Asset/purple chest" name="purplechest" centerPoint3DX="1185.3" centerPoint3DY="696.45">
+                  <matrix>
+                    <Matrix a="0.651809692382812" d="0.651809692382812" tx="1029.2" ty="597.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="239.5" y="151.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="scroll" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="magician's tent.psd Asset/scroll" name="scroll" centerPoint3DX="1184.85" centerPoint3DY="730.8">
+                  <matrix>
+                    <Matrix a="0.651809692382812" d="0.651809692382812" tx="1103.05" ty="682.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="125.5" y="74.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="crystal ball" color="#669900" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="magician's tent.psd Asset/crystal ball" name="crystalball" centerPoint3DX="1604.1" centerPoint3DY="451.05">
+                  <matrix>
+                    <Matrix a="0.651809692382812" d="0.651809692382812" tx="1550" ty="381.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="83" y="106"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="cabinet lid open" color="#FF4F4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="mirror1" color="#4F80FF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="magician's tent.psd Asset/mirror1" name="mirror1" centerPoint3DX="1383.45" centerPoint3DY="189.35">
+                  <matrix>
+                    <Matrix a="0.651809692382812" d="0.651809692382812" tx="1304.9" ty="152.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="mirror2" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="magician's tent.psd Asset/mirror2" name="mirror2" centerPoint3DX="1381.85" centerPoint3DY="293.95">
+                  <matrix>
+                    <Matrix a="0.651809692382812" d="0.651809692382812" tx="1321.2" ty="234.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="93.05" y="91"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="mirror3" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="magician's tent.psd Asset/mirror3" name="mirror3" centerPoint3DX="1385.75" centerPoint3DY="431.15">
+                  <matrix>
+                    <Matrix a="0.651809692382812" d="0.651809692382812" tx="1334.25" ty="363.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="79" y="103.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="mirror4" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="magician's tent.psd Asset/mirror4" name="mirror4" centerPoint3DX="1497.2" centerPoint3DY="223.25">
+                  <matrix>
+                    <Matrix a="0.651809692382812" d="0.651809692382812" tx="1471.75" ty="133.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.05" y="137.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="mirror5" color="#009999" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="magician's tent.psd Asset/mirror5" name="mirror5" centerPoint3DX="1493.3" centerPoint3DY="411.3">
+                  <matrix>
+                    <Matrix a="0.651809692382812" d="0.651809692382812" tx="1461.35" ty="325.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="49" y="132"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="mirror6" color="#808080" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="magician's tent.psd Asset/mirror6" name="mirror6" centerPoint3DX="1578" centerPoint3DY="179.6">
+                  <matrix>
+                    <Matrix a="0.651809692382812" d="0.651809692382812" tx="1540.85" ty="134.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="57" y="68.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="mirror7" color="#669900" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="magician's tent.psd Asset/mirror7" name="mirror7" centerPoint3DX="1651.35" centerPoint3DY="182.85">
+                  <matrix>
+                    <Matrix a="0.651809692382812" d="0.651809692382812" tx="1620.4" ty="147.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.5" y="53.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="mirror8" color="#FF4F4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="magician's tent.psd Asset/mirror8" name="mirror8" centerPoint3DX="1722.4" centerPoint3DY="179.25">
+                  <matrix>
+                    <Matrix a="0.651809692382812" d="0.651809692382812" tx="1687.5" ty="146"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="53.55" y="51"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="mirror9" color="#4F80FF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="magician's tent.psd Asset/mirror9" name="mirror9" centerPoint3DX="1813.3" centerPoint3DY="262.35">
+                  <matrix>
+                    <Matrix a="0.651809692382812" d="0.651809692382812" tx="1765.1" ty="146.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="73.95" y="177.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="mirror10" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="magician's tent.psd Asset/mirror10" name="mirror10" centerPoint3DX="1620.05" centerPoint3DY="456.9">
+                  <matrix>
+                    <Matrix a="0.651809692382812" d="0.651809692382812" tx="1547.4" ty="433.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="111.45" y="36"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="mirror11" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="magician's tent.psd Asset/mirror11" name="mirror11" centerPoint3DX="1800.3" centerPoint3DY="453">
+                  <matrix>
+                    <Matrix a="0.651809692382812" d="0.651809692382812" tx="1731.2" ty="381.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="106" y="109"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="mirror12" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="magician's tent.psd Asset/mirror12" name="mirror12" centerPoint3DX="1912.7" centerPoint3DY="220.65">
+                  <matrix>
+                    <Matrix a="0.651809692382812" d="0.651809692382812" tx="1874.6" ty="155.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="58.45" y="100.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="mirror13" color="#009999" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="magician's tent.psd Asset/mirror13" name="mirror13" centerPoint3DX="1918.9" centerPoint3DY="338.95">
+                  <matrix>
+                    <Matrix a="0.651809692382812" d="0.651809692382812" tx="1864.8" ty="292"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="83" y="72.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="mirror14" color="#808080" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="magician's tent.psd Asset/mirror14" name="mirror14" centerPoint3DX="2203.9" centerPoint3DY="617.3">
+                  <matrix>
+                    <Matrix a="0.651809692382812" d="0.651809692382812" tx="1890.7" ty="404.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="480.5" y="326"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="magic wand" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="picture" color="#4F80FF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="magician's tent.psd Asset/picture" name="picture" centerPoint3DX="2102.05" centerPoint3DY="332.4">
+                  <matrix>
+                    <Matrix a="0.651809692382812" d="0.651809692382812" tx="2014.05" ty="212.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="135" y="183.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="lamp" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bubbling" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="drawer 2" color="#808080" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="drawer 1" color="#669900" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="cushion" color="#669900" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="yellow chest" color="#FF4F4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="magician's tent.psd Asset/yellow chest" name="yellowchest" centerPoint3DX="1997.1" centerPoint3DY="717.3">
+                  <matrix>
+                    <Matrix a="0.651809692382812" d="0.651809692382812" tx="1858.3" ty="655.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="212.95" y="95.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="ink and feather" color="#FF4F4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="magician's tent.psd Asset/ink and feather" name="feather" centerPoint3DX="2888.75" centerPoint3DY="439.3">
+                  <matrix>
+                    <Matrix a="0.651809692382812" d="0.651809692382812" tx="2850.3" ty="329.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="59" y="168"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="ball" color="#4F80FF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="magician's tent.psd Asset/ball" name="ball" centerPoint3DX="2831.75" centerPoint3DY="527">
+                  <matrix>
+                    <Matrix a="0.651809692382812" d="0.651809692382812" tx="2806" ty="503.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.5" y="35.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="rug" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="magician's tent.psd Asset/rug" name="rug" centerPoint3DX="1606.05" centerPoint3DY="952.6">
+                  <matrix>
+                    <Matrix a="0.651809692382812" d="0.651809692382812" tx="878.65" ty="881.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1116" y="109.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bunting1" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bunting2" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="background" color="#4F80FF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="background sliced and scaled.psd" name="background">
+                  <transformationPoint>
+                    <Point x="1587.5" y="512"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
