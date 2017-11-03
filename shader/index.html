@@ -12,7 +12,7 @@
 
         const loader = new PIXI.loaders.Loader();
         loader.add('photo', 'photo.jpg', {loadType:1});
-        loader.add('shader', 'test.shader');
+        loader.add('shader', 'pixi.shader');
         loader.load((loader, resources) => {
             const photo = new PIXI.Sprite(resources.photo.texture);
             photo.scale.x = photo.scale.y = 2.5;

@@ -5,7 +5,6 @@
     <title></title>
 </head>
 <body>
-    <script src="dat.gui.js"></script>
     <script src="phaser.js"></script>
     <script>
         var game = new Phaser.Game(800, 600, Phaser.AUTO, 'phaser-example', { preload: preload, create: create, update: update });
@@ -61,14 +60,6 @@
             game.camera.follow(player);
 
             cursors = game.input.keyboard.createCursorKeys();
-
-            var gui = new dat.GUI();
-            var f1 = gui.addFolder('Player Scale');
-            f1.add(player.scale, 'x', 0,2).onChange(()=>{player.body.destroy();game.physics.p2.enable(player, true);});
-            f1.add(player.scale, 'y', 0,2).onChange(()=>{player.body.destroy();game.physics.p2.enable(player, true);});;
-            var f2 = gui.addFolder('Gravity');
-            f2.add(game.physics.p2.gravity, 'x', -1000,1000);
-            f2.add(game.physics.p2.gravity, 'y', -1000,1000);
 
         }
 

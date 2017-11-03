@@ -25,7 +25,23 @@
     .add('spineCharacter', 'morro_stupid.json')
     .load(function (loader, resources) {
         animation = new PIXI.spine.Spine(resources.spineCharacter.spineData);
-        animation.state.setAnimationByName(0, 'start', true);
+        animation.state.setAnimationByName(0, 'start', false);
+//        animation.state.timeScale = 0.1;
+        animation.state.onComplete = function(trackIndex, loopCount) {
+            if ( trackIndex == 0 ) {
+                animation.state.setAnimationByName(0, 'idle', false);
+            }
+		};
+
+        let look = 'in';
+        animation.state.onEvent = function(trackIndex, event) {
+            if ( event.data.name == 'event' ) {
+                animation.state.setAnimationByName(1, 'look ' + look, false);
+                look = look=='in' ? 'out' : 'in';
+			}
+		};
+
+
         animation.y = 800;
         animation.scale.set(0.5);
 
