@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <script src="pixi.js"></script>
+    <script>
+        const app = new PIXI.Application();
+        document.body.appendChild(app.view);
+
+        const loader = new PIXI.loaders.Loader();
+        loader.add('photo', 'photo.jpg', {loadType:1});
+        loader.add('shader', 'test.shader');
+        loader.load((loader, resources) => {
+            const photo = new PIXI.Sprite(resources.photo.texture);
+            photo.scale.x = photo.scale.y = 2.5;
+            app.stage.addChild(photo);
+
+            let uniforms = {
+                time: {type:'f', value:0}
+            };
+            const shader = new PIXI.Filter('', resources.shader.data, uniforms);
+            photo.filters = [shader];
+
+            app.ticker.add(function() {
+                shader.uniforms.time += 0.1;
+            });
+        });
+
+
+    </script>
+
+</body>
+</html>

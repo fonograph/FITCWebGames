@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+  <style>
+  body {
+      margin: 0;
+  }
+  #left {
+    width: 50vw;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-right: 2px solid black;
+  }
+  #right {
+    width: 50vw;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-left: 2px solid black;
+  }
+  #score {
+    font: 50px sans-serif;
+    color: black;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  </style>
+</head>
+<body>
+<div id="left"></div>
+<div id="right"></div>
+<div id="score">0</div>
+</body>
+<!--
+The following script line includes happyfuntimes which defines HFT.
+You could also use require.js or webpack etc...
+-->
+<script src="/node_modules/happyfuntimes/dist/hft.js"></script>
+<script>
+// Connect to the game
+const client = new HFT.GameClient();
+client.on('connect', handleConnect);
+client.on('disconnect', handleDisconnect);
+client.on('color', handleColor);
+client.on('scored', handleScored);
+
+const leftInput = document.querySelector('#left');
+const rightInput = document.querySelector('#right');
+
+let points = 0;
+
+function handleConnect() {
+}
+
+function handleDisconnect() {
+ // touchArea.textContent = "...disconnected...";
+}
+
+function handleColor(color) {
+  leftInput.style.backgroundColor = '#'+color;
+  rightInput.style.backgroundColor = '#'+color;
+}
+
+function handleScored(data) {
+  points += data.points;
+  document.querySelector('#score').textContent = points;
+}
+
+
+const touch = ('ontouchstart' in window);
+
+leftInput.addEventListener(touch?'touchstart':'click', (e) => {
+    client.sendCmd('left', {});
+});
+
+rightInput.addEventListener(touch?'touchstart':'click', (e) => {
+    client.sendCmd('right', {});
+});
+
+</script>
+</html>
+
+

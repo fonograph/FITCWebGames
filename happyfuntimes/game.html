@@ -1,0 +1,162 @@
+<!--
+/*
+ * Copyright 2016, Gregg Tavares.
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are
+ * met:
+ *
+ *     * Redistributions of source code must retain the above copyright
+ * notice, this list of conditions and the following disclaimer.
+ *     * Redistributions in binary form must reproduce the above
+ * copyright notice, this list of conditions and the following disclaimer
+ * in the documentation and/or other materials provided with the
+ * distribution.
+ *     * Neither the name of Gregg Tavares. nor the names of its
+ * contributors may be used to endorse or promote products derived from
+ * this software without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ * "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ * A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+ * OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ * LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ * THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+     body {
+         margin: 0;
+     }
+     #canvas canvas {
+         display: block;
+         width: 100vw !important;
+         height: 100vh !important;
+     }
+  </style>
+</head>
+<body>
+  <div id="canvas"></div>
+</body>
+<script src="node_modules/phaser-ce/build/phaser.js"></script>
+<script>
+const happyfuntimes = require('happyfuntimes');
+
+const colors = ['e6194b','ffe119','3cb44b','0082c8','f58231','911eb4','46f0f0','f032e6','d2f53c','fabebe','008080','e6beff','aa6e28','fffac8','800000','aaffc3','808000','ffd8b1','000080','808080']
+
+const game = new Phaser.Game(1024, 768, Phaser.AUTO, 'canvas', { preload: preload, create: create });
+
+const players = {};
+
+let coin;
+
+function preload() {
+    game.load.image('coin', 'assets/coin.png');
+    game.load.audio('coin', 'assets/coin.mp3');
+}
+
+function create() {
+    game.physics.startSystem(Phaser.Physics.P2JS);
+    game.physics.p2.gravity.y = 1000;
+    game.stage.backgroundColor = '#ffffff';
+    game.stage.disableVisibilityChange = true;
+
+    createCoin();
+}
+
+function addPlayer(netPlayer) {
+    const graphics = game.add.graphics(0, 0);
+    const color = colors[Object.values(players).length % colors.length];
+    graphics.beginFill(Number.parseInt(color, 16));
+    graphics.drawRect(0, 0, 100, 100);
+    const sprite = game.add.sprite(game.rnd.between(200,900), game.rnd.between(300,600), graphics.generateTexture());
+    sprite.anchor.set(0.5);
+    sprite.netplayer = netPlayer;
+    graphics.destroy();
+
+    console.log(Number.parseInt(color, 16));
+
+    game.physics.p2.enable(sprite);
+    // game.physics.p2.restitution = 1;
+
+    sprite.body.onBeginContact.add(()=>{
+        sprite.tint = 0xaaaaaa;
+        sprite.canJump = true;
+    });
+    sprite.body.onEndContact.add(()=>{
+        window.clearTimeout(sprite.resetTimeout);
+        sprite.resetTimeout = window.setTimeout(()=>{
+            sprite.tint = 0xffffff;
+            sprite.canJump = false;
+        }, 500);
+    });
+
+    players[netPlayer.getId()] = sprite;
+
+    console.log(color);
+
+    netPlayer.sendCmd('color', color);
+
+    netPlayer.addEventListener('disconnect', ()=>removePlayer(netPlayer));
+    netPlayer.addEventListener('left', ()=>{
+        if ( sprite.canJump || onGround(sprite) ) {
+            sprite.body.moveLeft(200);
+            sprite.body.rotateLeft(100);
+            sprite.body.moveUp(600);
+        }
+    });
+    netPlayer.addEventListener('right', ()=>{
+        if ( sprite.canJump || onGround(sprite) ) {
+          sprite.body.moveRight(200);
+          sprite.body.rotateRight(100);
+          sprite.body.moveUp(600);
+        }
+    });
+}
+
+function removePlayer(netPlayer) {
+    const player = players[netPlayer.getId()];
+    player.destroy();
+    delete players[netPlayer.getId()];
+}
+
+function createCoin() {
+    coin = game.add.sprite(game.rnd.between(100, 900), game.rnd.between(200, 500), 'coin');
+    coin.scale.set(0.25);
+    coin.anchor.set(0.5);
+    game.physics.p2.enable(coin);
+    coin.body.data.shapes[0].sensor = true;
+    coin.body.static = true;
+    coin.body.onBeginContact.add((body)=>{
+      const player = body.sprite;
+      player.netplayer.sendCmd("scored", {points:1});
+      game.sound.play('coin');
+      coin.destroy();
+      window.setTimeout(createCoin, 1000);
+    });
+}
+
+function onGround(sprite) {
+    return sprite.y + sprite.height/2 >= game.height - 5;
+}
+
+
+const server = new happyfuntimes.GameServer();
+
+server.on('playerconnect', function(netPlayer) {
+    addPlayer(netPlayer);
+});
+
+</script>
+</html>
+
