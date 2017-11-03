@@ -1,8 +1,6 @@
 import Phaser from 'phaser';
 import Player from './player';
 import Level from './level';
-// import { AssetLoader } from 'phaser-manifest-loader';
-// import manifest from './manifest';
 
 const game = new Phaser.Game(800, 600, Phaser.AUTO, 'phaser-example', { preload: preload, create: create, update: update });
 let player;
