@@ -1,15 +1,11 @@
 {
-  "name": "hft-clean",
-  "productName": "happyfuntimes clean example",
-  "description": "A clean example",
+  "name": "hft-game",
+  "productName": "happyfuntimes game",
   "private": false,
   "version": "0.0.1",
   "build": {
-    "appId": "com.greggman.hftClean",
-    "asar": false,
-    "mac": {
-      "category": "public.app-category.games"
-    }
+    "appId": "com.mobilefono.hftgame",
+    "asar": false
   },
   "main": "main.js",
   "scripts": {
@@ -18,21 +14,6 @@
     "pack": "build --dir",
     "dist": "build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/greggman/hft-clean.git"
-  },
-  "keywords": [
-    "local",
-    "multiplayer",
-    "game"
-  ],
-  "author": "Gregg Tavares",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/greggman/hft-clean/issues"
-  },
-  "homepage": "https://github.com/greggman/hft-clean#readme",
   "dependencies": {
     "happyfuntimes": "^0.2.1",
     "hft-game-utils": "^1.0.0",
