@@ -10,6 +10,9 @@
 * https://playcanvas.com/
 * https://github.com/cocos2d/cocos2d-html5
 * https://www.babylonjs.com/
+* https://editor.babylonjs.com/
+* https://cyos.babylonjs.com/
+* https://spector.babylonjs.com/
 * http://melonjs.org/
 * https://unity3d.com/
 * https://www.unrealengine.com/en-US/what-is-unreal-engine-4
@@ -20,8 +23,13 @@
 # Rendering
 
 * http://www.pixijs.com/
+* https://pixijs.github.io/pixi-particles-editor
+* https://chrome.google.com/webstore/detail/pixijs-devtools/aamddddknhcagpehecnhphigffljadon/reviews?hl=en
+* http://pixijs.github.io/pixi-filters/tools/demo/
 * https://threejs.org/
+* https://chrome.google.com/webstore/detail/threejs-inspector/dnhjfclbfhcbcdfpjaeacomhbdfjbebi
 * https://www.createjs.com/easeljs
+* http://shadertoy.com
 
 # Texture Packing
 
