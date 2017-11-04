@@ -11,9 +11,10 @@
         document.body.appendChild(app.view);
 
         const loader = new PIXI.loaders.Loader();
-        loader.add('photo', 'photo.jpg', {loadType:1});
+        loader.add('photo', 'photo.jpg');
         loader.add('shader', 'pixi.shader');
         loader.load((loader, resources) => {
+            console.log(resources.photo);
             const photo = new PIXI.Sprite(resources.photo.texture);
             photo.scale.x = photo.scale.y = 2.5;
             app.stage.addChild(photo);
@@ -27,6 +28,13 @@
             app.ticker.add(function() {
                 shader.uniforms.time += 0.1;
             });
+
+
+            /* loadType:1 */
+//            var img = new Image();
+//            var blobUrl = URL.createObjectURL(resources.photo.blob);
+//            img.src = blobUrl;
+//            const photo = new PIXI.Sprite(new PIXI.Texture(new PIXI.BaseTexture(img)));
         });
 
 
